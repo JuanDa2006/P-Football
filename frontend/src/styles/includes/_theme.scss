@@ -1,0 +1,11 @@
+@import './colors';
+
+body {
+    background: $white;
+    color: $black;
+}
+
+body.dark {
+    background: $dark;
+    color: $white;
+}
