@@ -4,7 +4,7 @@ import Test from '../pages/test';
 
 // Const
 const routesConfig = [
-    { path: '/', name: 'Home', element: <Home /> },
+    { path: '/', name: 'Inicio', element: <Home /> },
     { path: '/test', name: 'Test', element: <Test /> },
 ];
 

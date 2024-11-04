@@ -1,9 +1,9 @@
-import Nav from "../components/menu";
+import BaseLayout from '../layouts/baseLayout';
 
 export default function Home() {
     return (
         <>
-          <Nav />
+            <BaseLayout pageName={'Inicio'}></BaseLayout>
         </>
     );
 }

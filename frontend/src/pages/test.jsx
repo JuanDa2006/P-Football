@@ -1,9 +1,11 @@
-import Menu from "../components/menu";
+import BaseLayout from '../layouts/baseLayout';
 
 export default function Test() {
     return (
         <>
-            <Menu />
+            <BaseLayout pageName={'Test'}>
+                
+            </BaseLayout>
         </>
     );
 }
