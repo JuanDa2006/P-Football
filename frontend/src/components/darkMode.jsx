@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import { DarkThemeToggle } from "flowbite-react";
 
 
 const ToggleDarkMode = () => {
@@ -28,9 +28,7 @@ const ToggleDarkMode = () => {
 
     return (
         <>
-            <button>
-                
-            </button>
+            <DarkThemeToggle />
         </>
     )
 };

@@ -1,11 +1,9 @@
-import { Flowbite } from "flowbite-react";
-import ToggleDarkMode from "../components/darkMode";
+import Menu from "../components/menu";
 
 export default function Test() {
     return (
-        <Flowbite>
-            <h1>Test</h1>
-            <ToggleDarkMode />
-        </Flowbite>
-    )
+        <>
+            <Menu />
+        </>
+    );
 }

@@ -4,8 +4,8 @@ import Test from '../pages/test';
 
 // Const
 const routesConfig = [
-    { path: '/', element: <Home /> },
-    { path: '/test', element: <Test /> },
+    { path: '/', name: 'Home', element: <Home /> },
+    { path: '/test', name: 'Test', element: <Test /> },
 ];
 
 const routes = routesConfig.map((route) => ({
