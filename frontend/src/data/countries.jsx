@@ -1,3 +1,5 @@
+// Images Flags Imports
+
 import AFG from '../assets/images/countries/AFG.png';
 import AIA from '../assets/images/countries/AIA.png';
 import ALB from '../assets/images/countries/ALB.png';
@@ -208,6 +210,8 @@ import WAL from '../assets/images/countries/WAL.png';
 import YEM from '../assets/images/countries/YEM.png';
 import ZAM from '../assets/images/countries/ZAM.png';
 import ZIM from '../assets/images/countries/ZIM.png';
+
+// Const
 
 const countries = [
     { 
