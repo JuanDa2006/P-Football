@@ -1,11 +1,11 @@
 import BaseLayout from '../layouts/baseLayout';
-import { Dropdown, DropdownItem } from 'flowbite-react';
+import TestComponent from '../components/testComponent';
 
 export default function Test() {
     return (
         <>
             <BaseLayout pageName={'Test'}>
-                
+                <TestComponent />
             </BaseLayout>
         </>
     );
