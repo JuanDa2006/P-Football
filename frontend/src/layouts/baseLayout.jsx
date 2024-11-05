@@ -15,7 +15,7 @@ const BaseLayout = ({ children, pageName }) => {
                     {children}
                 </div>
             </main>
-            <FooterComp />
+            {/* <FooterComp /> */}
         </>
     );
 };

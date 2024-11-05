@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { DarkThemeToggle } from 'flowbite-react';
+import routesConfig from '../routes/routes';
 
 const Menu = ({ pageName }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -51,11 +52,18 @@ const Menu = ({ pageName }) => {
 };
 
 const MenuList = ({ addClass }) => {
+    const links = routesConfig.map((link) => {
+        return (
+            <MenuLink href={link.path} to={link.name} addClass={addClass}>
+                {link.name}
+            </MenuLink>
+        );
+    });
+
     return (
         <>
-            <MenuLink href={'/'} to={'Inicio'} addClass={addClass}></MenuLink>
-            <MenuLink href={'test'} to={'Test'} addClass={addClass}></MenuLink>
-            <DarkThemeToggle className='ml-1' />
+            {links}
+            <DarkThemeToggle />
         </>
     );
 };

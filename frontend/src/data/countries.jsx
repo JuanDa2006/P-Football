@@ -917,7 +917,7 @@ const countries = [
     { 
         id: 'NZL',
         src: NZL,
-        name: 'Aotearoa New Zealand',
+        name: 'New Zealand',
     },
     { 
         id: 'OMA',

@@ -8,9 +8,4 @@ const routesConfig = [
     { path: '/test', name: 'Test', element: <Test /> },
 ];
 
-const routes = routesConfig.map((route) => ({
-    path: route.path,
-    element: route.element,
-}));
-
-export default routes;
+export default routesConfig;
