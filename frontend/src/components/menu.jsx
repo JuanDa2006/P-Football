@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import { DarkThemeToggle } from 'flowbite-react';
 
 const Menu = ({ pageName }) => {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,11 +11,13 @@ const Menu = ({ pageName }) => {
     };
 
     return (
-        <nav className='text-black shadow'>
+        <nav className='bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700'>
             <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <div className='flex items-center justify-between h-16'>
                     <div className='flex items-center'>
-                        <h1 className='text-2xl font-bold'>{pageName}</h1>
+                        <h1 className='self-center text-2xl font-bold whitespace-nowrap dark:text-white'>
+                            {pageName}
+                        </h1>
                     </div>
                     {/* Menú de navegación en pantalla grande */}
                     <div className='hidden md:flex space-x-4'>
@@ -27,9 +30,9 @@ const Menu = ({ pageName }) => {
                             className='focus:outline-none flex gap'
                         >
                             {isOpen ? (
-                                <FaTimes className='h-6 w-6 text-black' />
+                                <FaTimes className='h-6 w-6 text-black dark:text-white' />
                             ) : (
-                                <FaBars className='h-6 w-6 text-black' />
+                                <FaBars className='h-6 w-6 text-black dark:text-white' />
                             )}
                         </button>
                     </div>
@@ -50,17 +53,21 @@ const Menu = ({ pageName }) => {
 const MenuList = ({ addClass }) => {
     return (
         <>
+            <MenuLink href={'/'} to={'Inicio'} addClass={addClass}></MenuLink>
+            <MenuLink href={'test'} to={'Test'} addClass={addClass}></MenuLink>
+            <DarkThemeToggle className='ml-1' />
+        </>
+    );
+};
+
+const MenuLink = ({ href, addClass, to }) => {
+    return (
+        <>
             <Link
-                to={'/'}
-                className={`hover:bg-gray-200 px-3 py-2 rounded ${addClass}`}
+                to={href}
+                className={`hover:bg-gray-200 text-black dark:hover:bg-gray-700 dark:text-white px-3 py-2 rounded ${addClass}`}
             >
-                Inicio
-            </Link>
-            <Link
-                to={'/test'}
-                className={`hover:bg-gray-200 px-3 py-2 rounded ${addClass}`}
-            >
-                Test
+                {to}
             </Link>
         </>
     );

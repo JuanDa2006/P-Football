@@ -1,9 +1,9 @@
-import { Datepicker } from "flowbite-react"
+import { DarkThemeToggle } from "flowbite-react"
 
 export default function TestComponent () {
     return (
         <>
-            <Datepicker className="w-96" />
+
         </>
     )
 }
