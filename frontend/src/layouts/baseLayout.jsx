@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from '../components/menu';
-import PageTitle from '../utils/pageTitle';
+import PageTitle from '../services/pageTitle';
 import FooterComp from '../components/footer';
 
 const BaseLayout = ({ children, pageName }) => {
@@ -10,8 +10,8 @@ const BaseLayout = ({ children, pageName }) => {
             <header>
                 <Menu pageName={pageName} />
             </header>
-            <main className='w-screen'>
-                <div className='px-8 mt-16 mx-auto xl:max-w-screen-2xl'>
+            <main className='w-screen pb-8'>
+                <div className='px-8 pb-12 mt-12 mx-auto xl:max-w-screen-2xl'>
                     {children}
                 </div>
             </main>
