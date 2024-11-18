@@ -1,4 +1,4 @@
-const analisis_wc = [
+const analisis_colectivo_wc = [
     {
         id: '1930',
         tactica:
@@ -12,4 +12,4 @@ const analisis_wc = [
     },
 ];
 
-export default analisis_wc;
+export default analisis_colectivo_wc;

@@ -25,7 +25,7 @@ export default function Mundiales() {
 const CountryLink = ({ to, countryId, countryName, year }) => {
     return (
         <li className='dark:text-white mb-2 '>
-            <Link to={to} className='flex items-center gap-2'>
+            <Link to={to} className='flex items-center gap-0.5'>
                 <CountryFlagSmall countryId={countryId} />
                 {year} - {countryName}
             </Link>
