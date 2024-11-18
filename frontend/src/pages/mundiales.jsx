@@ -15,7 +15,7 @@ export default function Mundiales() {
                     <h2 className='my-4 font-bold text-xl dark:text-white   '>
                         Mundiales
                     </h2>
-                    <ul>{listMundiales} </ul>
+                    <ul>{listMundiales}  </ul>
                 </div>
             </BaseLayout>
         </>

@@ -11,6 +11,7 @@ const routesConfig = [
     { path: '/', name: 'Inicio', element: <Home /> },
     { path: '/mundiales', name: 'Mundiales', element: <Mundiales /> },
     { path: '/test', name: 'Test', element: <Test /> },
+    { path: '/mundiales/mundial/1930', name: 'Uruguay - 1930', element: <URU_1930 /> },
 ];
 
 export default routesConfig;

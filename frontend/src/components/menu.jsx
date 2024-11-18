@@ -52,17 +52,10 @@ const Menu = ({ pageName }) => {
 };
 
 const MenuList = ({ addClass }) => {
-    const links = routesConfig.map((link) => {
-        return (
-            <MenuLink href={link.path} to={link.name} addClass={addClass}>
-                {link.name}
-            </MenuLink>
-        );
-    });
-
     return (
         <>
-            {links}
+            <MenuLink href={'/'} to={'Inicio'} addClass={addClass}>Inicio</MenuLink>
+            <MenuLink href={'/mundiales'} to={'Mundiales'} addClass={addClass}>Mundiales</MenuLink>
             <DarkThemeToggle />
         </>
     );
