@@ -1,0 +1,44 @@
+
+to: '/mundiales/mundial/1930',
+
+to: '/mundiales/mundial/1934',
+
+to: '/mundiales/mundial/1938',
+
+to: '/mundiales/mundial/1950',
+
+to: '/mundiales/mundial/1954',
+
+to: '/mundiales/mundial/1958',
+
+to: '/mundiales/mundial/1962',
+
+to: '/mundiales/mundial/1966',
+
+to: '/mundiales/mundial/1970',
+
+to: '/mundiales/mundial/1974',
+
+to: '/mundiales/mundial/1978',
+
+to: '/mundiales/mundial/1982',
+
+to: '/mundiales/mundial/1986',
+
+to: '/mundiales/mundial/1990',
+
+to: '/mundiales/mundial/1994',
+
+to: '/mundiales/mundial/1998',
+
+to: '/mundiales/mundial/2002',
+
+to: '/mundiales/mundial/2006',
+
+to: '/mundiales/mundial/2010',
+
+to: '/mundiales/mundial/2014',
+
+to: '/mundiales/mundial/2018',
+
+to: '/mundiales/mundial/2022',
