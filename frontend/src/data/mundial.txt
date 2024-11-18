@@ -1,44 +1,46 @@
 
 to: '/mundiales/mundial/1930',
-
 to: '/mundiales/mundial/1934',
-
 to: '/mundiales/mundial/1938',
-
 to: '/mundiales/mundial/1950',
-
 to: '/mundiales/mundial/1954',
-
 to: '/mundiales/mundial/1958',
-
 to: '/mundiales/mundial/1962',
-
 to: '/mundiales/mundial/1966',
-
 to: '/mundiales/mundial/1970',
-
 to: '/mundiales/mundial/1974',
-
 to: '/mundiales/mundial/1978',
-
 to: '/mundiales/mundial/1982',
-
 to: '/mundiales/mundial/1986',
-
 to: '/mundiales/mundial/1990',
-
 to: '/mundiales/mundial/1994',
-
 to: '/mundiales/mundial/1998',
-
 to: '/mundiales/mundial/2002',
-
 to: '/mundiales/mundial/2006',
-
 to: '/mundiales/mundial/2010',
-
 to: '/mundiales/mundial/2014',
-
 to: '/mundiales/mundial/2018',
-
 to: '/mundiales/mundial/2022',
+
+touch src/pages/mundiales/1930-Uruguay.jsx
+touch src/pages/mundiales/1934-Italia.jsx
+touch src/pages/mundiales/1938-Francia.jsx
+touch src/pages/mundiales/1950-Brasil.jsx
+touch src/pages/mundiales/1954-Suiza.jsx
+touch src/pages/mundiales/1958-Suecia.jsx
+touch src/pages/mundiales/1962-Chile.jsx
+touch src/pages/mundiales/1966-Inglaterra.jsx
+touch src/pages/mundiales/1970-México.jsx
+touch src/pages/mundiales/1974-Alemania.jsx
+touch src/pages/mundiales/1978-Argentina.jsx
+touch src/pages/mundiales/1982-España.jsx
+touch src/pages/mundiales/1986-México.jsx
+touch src/pages/mundiales/1990-Italia.jsx
+touch src/pages/mundiales/1994-Estados-Unidos.jsx
+touch src/pages/mundiales/1998-Francia.jsx
+touch src/pages/mundiales/2002-Corea/Japón.jsx
+touch src/pages/mundiales/2006-Alemania.jsx
+touch src/pages/mundiales/2010-Sudafrica.jsx
+touch src/pages/mundiales/2014-Brasil.jsx
+touch src/pages/mundiales/2018-Rusia.jsx
+touch src/pages/mundiales/2022-Catar.jsx

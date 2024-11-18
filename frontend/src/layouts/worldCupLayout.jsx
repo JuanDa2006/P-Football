@@ -1,9 +1,11 @@
 import BaseLayout from "./baseLayout"
 
-const WorldCupLayot = ({children, pageName}) => {
+const WorldCupLayout = ({children, pageName}) => {
     return (
         <BaseLayout pageName={pageName}>
             {children}
         </BaseLayout>
     )
 }
+
+export default WorldCupLayout;
