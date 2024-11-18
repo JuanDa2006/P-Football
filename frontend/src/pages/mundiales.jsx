@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import BaseLayout from '../layouts/baseLayout';
 import CountryFlagSmall from '../components/countryFlagSmall';
+import mundiales from '../data/mundiales';
 
 export default function Mundiales() {
     return (
@@ -14,14 +15,7 @@ export default function Mundiales() {
                     <h2 className='my-4 font-bold text-xl dark:text-white   '>
                         Mundiales
                     </h2>
-                    <ul>
-                        <CountryLink
-                            to={'/'}
-                            countryId={'URU'}
-                            countryName={'Uruguay'}
-                            year={'1930'}
-                        />
-                    </ul>
+                    <ul>{listMundiales} </ul>
                 </div>
             </BaseLayout>
         </>
@@ -30,7 +24,7 @@ export default function Mundiales() {
 
 const CountryLink = ({ to, countryId, countryName, year }) => {
     return (
-        <li className='dark:text-white'>
+        <li className='dark:text-white mb-2 '>
             <Link to={to} className='flex items-center gap-2'>
                 <CountryFlagSmall countryId={countryId} />
                 {year} - {countryName}
@@ -38,3 +32,14 @@ const CountryLink = ({ to, countryId, countryName, year }) => {
         </li>
     );
 };
+
+const listMundiales = mundiales.map((mundial) => {
+    return (
+        <CountryLink
+            to={mundial.to}
+            countryId={mundial.countryId}
+            countryName={mundial.countryName}
+            year={mundial.year}
+        />
+    );
+});

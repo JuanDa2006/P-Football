@@ -19,7 +19,7 @@ const Flag = ({ countryId }) => {
             <img
                 src={country.src}
                 alt={country.name}
-                className='sm:h-4 h-6 w-auto rounded sm:rounded-sm mr-4 '
+                className='md:h-4 h-6 w-auto rounded sm:rounded-sm mr-4 '
             />
         </div>
     );

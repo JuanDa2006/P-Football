@@ -1,0 +1,136 @@
+const mundiales = [
+    {
+        to: '/mundiales/mundial/1930',
+        countryId: 'URU',
+        countryName: 'Uruguay',
+        year: 1930,
+    },
+    {
+        to: '/mundiales/mundial/1934',
+        countryId: 'ITA',
+        countryName: 'Italia',
+        year: 1934,
+    },
+    {
+        to: '/mundiales/mundial/1938',
+        countryId: 'FRA',
+        countryName: 'Francia',
+        year: 1938,
+    },
+    {
+        to: '/mundiales/mundial/1950',
+        countryId: 'BRA',
+        countryName: 'Brasil',
+        year: 1950,
+    },
+    {
+        to: '/mundiales/mundial/1954',
+        countryId: 'SUI',
+        countryName: 'Suiza',
+        year: 1954,
+    },
+    {
+        to: '/mundiales/mundial/1958',
+        countryId: 'SWE',
+        countryName: 'Suecia',
+        year: 1958,
+    },
+    {
+        to: '/mundiales/mundial/1962',
+        countryId: 'CHI',
+        countryName: 'Chile',
+        year: 1962,
+    },
+    {
+        to: '/mundiales/mundial/1966',
+        countryId: 'ENG',
+        countryName: 'Inglaterra',
+        year: 1966,
+    },
+    {
+        to: '/mundiales/mundial/1970',
+        countryId: 'MEX',
+        countryName: 'México',
+        year: 1970,
+    },
+    {
+        to: '/mundiales/mundial/1974',
+        countryId: 'GER',
+        countryName: 'Alemania',
+        year: 1974,
+    },
+    {
+        to: '/mundiales/mundial/1978',
+        countryId: 'ARG',
+        countryName: 'Argentina',
+        year: 1978,
+    },
+    {
+        to: '/mundiales/mundial/1982',
+        countryId: 'ESP',
+        countryName: 'España',
+        year: 1982,
+    },
+    {
+        to: '/mundiales/mundial/1986',
+        countryId: 'MEX',
+        countryName: 'México',
+        year: 1986,
+    },
+    {
+        to: '/mundiales/mundial/1990',
+        countryId: 'ITA',
+        countryName: 'Italia',
+        year: 1990,
+    },
+    {
+        to: '/mundiales/mundial/1994',
+        countryId: 'USA',
+        countryName: 'Estados Unidos',
+        year: 1994,
+    },
+    {
+        to: '/mundiales/mundial/1998',
+        countryId: 'FRA',
+        countryName: 'Francia',
+        year: 1998,
+    },
+    {
+        to: '/mundiales/mundial/2002',
+        countryId: 'KOR',
+        countryName: 'Corea/Japón',
+        year: 2002,
+    },
+    {
+        to: '/mundiales/mundial/2006',
+        countryId: 'GER',
+        countryName: 'Alemania',
+        year: 2006,
+    },
+    {
+        to: '/mundiales/mundial/2010',
+        countryId: 'RSA',
+        countryName: 'Sudafrica',
+        year: 2010,
+    },
+    {
+        to: '/mundiales/mundial/2014',
+        countryId: 'BRA',
+        countryName: 'Brasil',
+        year: 2014,
+    },
+    {
+        to: '/mundiales/mundial/2018',
+        countryId: 'RUS',
+        countryName: 'Rusia',
+        year: 2018,
+    },
+    {
+        to: '/mundiales/mundial/2022',
+        countryId: 'QAT',
+        countryName: 'Catar',
+        year: 2022,
+    },
+];
+
+export default mundiales;
