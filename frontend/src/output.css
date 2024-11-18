@@ -1393,10 +1393,6 @@ input[type="range"]::-ms-fill-lower {
   display: grid;
 }
 
-.list-item {
-  display: list-item;
-}
-
 .hidden {
   display: none;
 }
@@ -3000,11 +2996,6 @@ input[type="range"]::-ms-fill-lower {
   line-height: 2rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
 .text-base {
   font-size: 1rem;
   line-height: 1.5rem;
@@ -3028,11 +3019,6 @@ input[type="range"]::-ms-fill-lower {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .font-bold {
@@ -3732,6 +3718,10 @@ input[type="range"]::-ms-fill-lower {
 .even\:bg-gray-50:nth-child(even) {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
+.hover\:ml-4:hover {
+  margin-left: 1rem;
 }
 
 .hover\:cursor-not-allowed:hover {
@@ -4518,10 +4508,6 @@ input[type="range"]::-ms-fill-lower {
 
 .dark\:hidden:is(.dark *) {
   display: none;
-}
-
-.dark\:list-disc:is(.dark *) {
-  list-style-type: disc;
 }
 
 .dark\:divide-gray-700:is(.dark *) > :not([hidden]) ~ :not([hidden]) {

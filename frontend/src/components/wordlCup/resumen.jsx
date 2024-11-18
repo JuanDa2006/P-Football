@@ -4,7 +4,7 @@ export default function ResumenWC({ worldCId }) {
     const mundial = resumen_wc.find((c) => c.id === worldCId);
 
     return (
-        <div className='resumen my-4 dark:text-white'>
+        <div className='my-4 dark:text-white'>
             <h3 className='font-semibold text-xl'>Resumen</h3>
             <ul className='list-disc pl-8'>
                 <li className=''>

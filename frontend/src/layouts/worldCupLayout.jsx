@@ -2,8 +2,11 @@ import BaseLayout from './baseLayout';
 import { Link } from 'react-router-dom';
 import { FaArrowAltCircleLeft } from 'react-icons/fa';
 import CountryFlag from '../components/countryFlag';
+import ResumenWC from '../components/wordlCup/resumen';
+import AnalisisWC from '../components/wordlCup/analisis';
+import HeaderWC from '../components/wordlCup/header';
 
-const WorldCupLayout = ({ children, pageName, countryId }) => {
+const WorldCupLayout = ({ children, pageName, countryId, worldCId }) => {
     return (
         <BaseLayout pageName={pageName}>
             <Link
@@ -13,8 +16,13 @@ const WorldCupLayout = ({ children, pageName, countryId }) => {
                 <FaArrowAltCircleLeft />
                 Volver
             </Link>
-            <CountryFlag countryId={countryId} />
-            {children}
+            <div className='my-4 ml-2'>
+                <CountryFlag countryId={countryId} />
+            </div>
+            <HeaderWC worldCId={worldCId} />
+            <ResumenWC worldCId={worldCId} />
+            <AnalisisWC worldCId={worldCId} />
+            {children}  
         </BaseLayout>
     );
 };
