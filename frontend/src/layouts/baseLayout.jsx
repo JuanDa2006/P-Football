@@ -2,11 +2,15 @@ import React from 'react';
 import Menu from '../components/menu';
 import PageTitle from '../services/pageTitle';
 import FooterComp from '../components/footer';
+import useFavicon from '../services/pageIcon';
+import favicon from '../assets/icons/favicon.ico';
 import GoBack from '../hooks/back';
 import ScrollToTop from 'react-scroll-to-top';
 import { FaChevronUp } from 'react-icons/fa';
 
 const BaseLayout = ({ children, pageName }) => {
+    useFavicon(favicon);
+
     return (
         <>
             <PageTitle title={pageName} />

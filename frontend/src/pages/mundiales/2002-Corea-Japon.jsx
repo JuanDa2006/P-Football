@@ -1,11 +1,11 @@
 import WorldCupLayout from '../../layouts/worldCupLayout';
 
-export default function SWE_1958() {
+export default function KOR_JAP_2002() {
     return (
         <WorldCupLayout
-            pageName={'Suecia - 1958'}
+            pageName={'Corea / Japón - 2002'}
             countryId={'BRA'}
-            worldCId={'1958'}
+            worldCId={'2002'}
         ></WorldCupLayout>
     );
 }

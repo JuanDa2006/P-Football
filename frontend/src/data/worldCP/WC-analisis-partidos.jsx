@@ -119,12 +119,182 @@ const analisis_partidos_wc = [
         ],
     },
     {
+        id: '1934',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1938',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1950',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1954',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1958',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1962',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1966',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1970',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1974',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1978',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1982',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1986',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1990',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1994',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '1998',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '2002',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '2006',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
         id: '2010',
         partidos: [
             {
                 partido: 'Grupo (España 0-1 Suiza)',
                 resumen:
-                    'Inicio decepcionante, con problemas en la definición y defensa expuesta.',
+                'Inicio decepcionante, con problemas en la definición y defensa expuesta.',
                 goleadores: [
                     {
                         nacion: 'SUI',
@@ -132,6 +302,36 @@ const analisis_partidos_wc = [
                         minuto: 52,
                     },
                 ],
+            },
+        ],
+    },
+    {
+        id: '2014',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '2018',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
+            },
+        ],
+    },
+    {
+        id: '2022',
+        partidos: [
+            {
+                partido: '',
+                resumen: '',
+                goleadores: [{}],
             },
         ],
     },

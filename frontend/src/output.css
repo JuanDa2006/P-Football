@@ -1245,11 +1245,6 @@ input[type="range"]::-ms-fill-lower {
   margin-bottom: 2rem;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
 .-mb-px {
   margin-bottom: -1px;
 }
@@ -1364,14 +1359,6 @@ input[type="range"]::-ms-fill-lower {
 
 .mt-6 {
   margin-top: 1.5rem;
-}
-
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
 }
 
 .block {
@@ -1833,6 +1820,10 @@ input[type="range"]::-ms-fill-lower {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1887,10 +1878,6 @@ input[type="range"]::-ms-fill-lower {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-0 {
-  gap: 0px;
 }
 
 .-space-x-4 > :not([hidden]) ~ :not([hidden]) {
@@ -3056,6 +3043,10 @@ input[type="range"]::-ms-fill-lower {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .uppercase {
