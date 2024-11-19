@@ -1,7 +1,7 @@
 const resumen_wc = [
     {
         id: '1930',
-        lugar: 'Uruguay',
+        anfitrion: 'Uruguay',
         fechas: '13 al 30 de julio de 1930',
         estadios: '3 (principalmente el Estadio Centenario en Montevideo)',
         selecciones:
@@ -10,173 +10,174 @@ const resumen_wc = [
     },
     {
         id: '1934',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1938',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1950',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1954',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1958',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1962',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1966',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1970',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1974',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1978',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1982',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1986',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1990',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1994',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '1998',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '2002',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '2006',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '2010',
-        lugar: 'Sudáfrica',
+        anfitrion: 'Sudáfrica',
         fechas: '11 de junio al 11 de julio de 2010',
         estadios:
-        '10 sedes en ciudades como Johannesburgo, Ciudad del Cabo, Durban y Pretoria',
+            '10 sedes en ciudades como Johannesburgo, Ciudad del Cabo, Durban y Pretoria',
         selecciones:
-        '32 equipos (13 europeos, 6 americanos, 5 africanos, 4 asiáticos y 4 de Concacaf)',
-        formato: 'Fase de grupos, octavos de final, cuartos de final, semifinales y final.'
+            '32 equipos (13 europeos, 6 americanos, 5 africanos, 4 asiáticos y 4 de Concacaf)',
+        formato:
+            'Fase de grupos, octavos de final, cuartos de final, semifinales y final.',
     },
     {
         id: '2014',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '2018',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
     {
         id: '2022',
-        lugar: '',
+        anfitrion: '',
         fechas: '',
         estadios: '',
         selecciones: '',
-        formato: ''
+        formato: '',
     },
 ];
 

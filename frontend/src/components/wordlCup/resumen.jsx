@@ -9,7 +9,7 @@ export default function ResumenWC({ worldCId }) {
             <ul className='list-disc pl-8 ml-2'>
                 <li className=''>
                     <p>
-                        <span className='font-semibold'>Anfitrión: </span>{mundial.lugar}
+                        <span className='font-semibold'>Anfitrión: </span>{mundial.anfitrion}
                     </p>
                 </li>
                 <li>
