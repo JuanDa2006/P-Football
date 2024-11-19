@@ -6,8 +6,8 @@ const analisis_estadistico_wc = [
     },
     {
         id: '1934',
-        goles_marcados: 0,
-        goles_recibidos: 0,
+        goles_marcados: 12,
+        goles_recibidos: 3,
     },
     {
         id: '1938',

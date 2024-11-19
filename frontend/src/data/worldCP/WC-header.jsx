@@ -7,12 +7,12 @@ const header_wc = [
     {
         id: '1934',
         ganador: 'Italia',
-        header: '',
+        header: 'El Mundial de 1934 se jugó en Italia y marcó la primera edición con un torneo de eliminación directa desde la primera ronda, sin fase de grupos.',
     },
     {
         id: '1938',
         ganador: 'Italia',
-        header: '',
+        header: 'El Mundial de 1938 se celebró en Francia y fue el último antes de la pausa por la Segunda Guerra Mundial. Aquí tienes el resumen y análisis de Italia, que repitió como campeona.',
     },
     {
         id: '1950',

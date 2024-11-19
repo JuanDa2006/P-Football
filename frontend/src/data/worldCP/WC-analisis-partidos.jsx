@@ -122,9 +122,113 @@ const analisis_partidos_wc = [
         id: '1934',
         partidos: [
             {
-                partido: '',
+                partido: 'Octavos de final (Italia 7-1 Estados Unidos)',
+                resumen:
+                    'Dominio absoluto, mostró gran capacidad ofensiva desde el inicio.',
+                goleadores: [
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Angelo Schiavio',
+                        minuto: 18,
+                    },
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Raimundo Orsi',
+                        minuto: 20,
+                    },
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Angelo Schiavio',
+                        minuto: 29,
+                    },
+                    {
+                        nacion: 'USA',
+                        jugador: 'Aldo Donelli',
+                        minuto: 57,
+                    },
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Giovanni Ferrari',
+                        minuto: 63,
+                    },
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Angelo Schiavio',
+                        minuto: 64,
+                    },
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Raimundo Orsi',
+                        minuto: 69,
+                    },
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Giuseppe Meazza',
+                        minuto: 90,
+                    },
+                ],
+            },
+            {
+                partido: 'Cuartos de final (Italia 1-1 España)',
+                resumen:
+                    'Partido muy disputado; la defensa italiana fue clave.',
+                goleadores: [
+                    {
+                        nacion: 'ESP',
+                        jugador: 'Luis Pagola',
+                        minuto: 30,
+                    },
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Giovanni Ferrari',
+                        minuto: 44,
+                    },
+                ],
+            },
+            {
+                partido: 'Cuartos de final - Desempate (Italia 1-0 España)',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Giuseppe Meazza',
+                        minuto: 11,
+                    },
+                ],
+            },
+            {
+                partido: 'Semifinal (Italia 1-0 Austria)',
+                resumen:
+                    'Victoria ajustada, con un enfoque en defensa y aprovechamiento de una ocasión crucial.',
+                goleadores: [
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Enrique Guaita',
+                        minuto: 19,
+                    },
+                ],
+            },
+            {
+                partido: 'Final (Italia 2-1 Checoslovaquia)',
+                resumen:
+                    'Remontada en tiempo extra; mostró carácter y resistencia',
+                goleadores: [
+                    {
+                        nacion: 'CZE',
+                        jugador: 'Antonín Puč',
+                        minuto: 71,
+                    },
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Raimundo Orsi',
+                        minuto: 81,
+                    },
+                    {
+                        nacion: 'ITA',
+                        jugador: 'Angelo Schiavio',
+                        minuto: 95,
+                    },
+                ],
             },
         ],
     },
@@ -134,7 +238,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -144,7 +248,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -154,7 +258,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -164,7 +268,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -174,7 +278,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -184,7 +288,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -194,7 +298,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -204,7 +308,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -214,7 +318,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -224,7 +328,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -234,7 +338,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -244,7 +348,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -254,7 +358,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -264,7 +368,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -274,7 +378,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -284,7 +388,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -294,7 +398,7 @@ const analisis_partidos_wc = [
             {
                 partido: 'Grupo (España 0-1 Suiza)',
                 resumen:
-                'Inicio decepcionante, con problemas en la definición y defensa expuesta.',
+                    'Inicio decepcionante, con problemas en la definición y defensa expuesta.',
                 goleadores: [
                     {
                         nacion: 'SUI',
@@ -311,7 +415,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -321,7 +425,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },
@@ -331,7 +435,7 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                goleadores: [{}],
+                goleadores: [],
             },
         ],
     },

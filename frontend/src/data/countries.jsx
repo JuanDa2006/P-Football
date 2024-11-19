@@ -197,6 +197,7 @@ import TUR from '../assets/images/countries/TUR.png';
 import UAE from '../assets/images/countries/UAE.png';
 import UGA from '../assets/images/countries/UGA.png';
 import UKR from '../assets/images/countries/UKR.png';
+import URS from '../assets/images/countries/URS.png';
 import URU from '../assets/images/countries/URU.png';
 import USA from '../assets/images/countries/USA.png';
 import UZB from '../assets/images/countries/UZB.png';
@@ -1199,6 +1200,11 @@ const countries = [
         id: 'UKR',
         src: UKR,
         name: 'Ukraine',
+    },
+    { 
+        id: 'URS',
+        src: URS,
+        name: 'Unión Soviética',
     },
     { 
         id: 'URU',
