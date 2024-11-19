@@ -13,6 +13,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Rendimiento sólido pero conservador, lograron la victoria sin arriesgar demasiado.',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -45,6 +46,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Incremento en la agresividad ofensiva, gran eficacia en el ataque.',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -96,6 +98,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Dominio absoluto, tanto en control del juego como en definición.',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -162,6 +165,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Superaron una desventaja inicial; gran capacidad de reacción y efectividad en ataque.',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -228,6 +232,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Dominio absoluto, mostró gran capacidad ofensiva desde el inicio.',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -299,6 +304,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Partido muy disputado; la defensa italiana fue clave.',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -339,6 +345,7 @@ const analisis_partidos_wc = [
                 partido: 'Cuartos de final - Desempate (Italia 1-0 España)',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -375,6 +382,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Victoria ajustada, con un enfoque en defensa y aprovechamiento de una ocasión crucial.',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -411,6 +419,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Remontada en tiempo extra; mostró carácter y resistencia',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -461,6 +470,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -495,6 +505,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -529,6 +540,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -563,6 +575,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -597,6 +610,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -631,6 +645,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -665,6 +680,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -699,6 +715,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -733,6 +750,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -767,6 +785,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -801,6 +820,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -835,6 +855,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -869,6 +890,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -903,6 +925,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -937,6 +960,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -971,6 +995,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -1006,6 +1031,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Inicio decepcionante, con problemas en la definición y defensa expuesta.',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -1046,6 +1072,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -1080,6 +1107,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
@@ -1114,6 +1142,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
                 fecha: '',
+                hora: '',
                 alineacion: [
                     { posicion: P, nombre: '' },
                     { posicion: P, nombre: '' },
