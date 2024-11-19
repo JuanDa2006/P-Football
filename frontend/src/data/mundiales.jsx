@@ -97,7 +97,7 @@ const mundiales = [
     },
     {
         to: '/mundiales/mundial/2002',
-        countryId: 'KOR',
+        countryId: 'JPN',
         countryName: 'Corea/Japón',
         year: 2002,
     },
