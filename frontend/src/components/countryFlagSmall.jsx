@@ -1,5 +1,4 @@
 import countries from '../data/countries';
-import { Avatar } from 'flowbite-react';
 
 const CountryFlagSmall = ({ countryId }) => {
     const country = countries.find((c) => c.id === countryId);
