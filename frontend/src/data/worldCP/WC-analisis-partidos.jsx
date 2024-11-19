@@ -50,32 +50,86 @@ const analisis_partidos_wc = [
                     {
                         nacion: 'URU',
                         jugador: 'Pedro Cea',
-                        minuto: 18
+                        minuto: 18,
                     },
                     {
                         nacion: 'URU',
                         jugador: 'Peregrino Anselmo',
-                        minuto: 20
+                        minuto: 20,
                     },
                     {
                         nacion: 'URU',
                         jugador: 'Peregrino Anselmo',
-                        minuto: 31
+                        minuto: 31,
                     },
                     {
                         nacion: 'URU',
                         jugador: 'Santos Iriarte',
-                        minuto: 61
+                        minuto: 61,
                     },
                     {
                         nacion: 'URU',
                         jugador: 'Pedro Cea',
-                        minuto: 67
+                        minuto: 67,
                     },
                     {
                         nacion: 'URU',
-                        jugador: 'Pedro Cea',   
-                        minuto: 72
+                        jugador: 'Pedro Cea',
+                        minuto: 72,
+                    },
+                ],
+            },
+            {
+                partido: 'Final (Uruguay 4-2 Argentina)',
+                resumen:
+                    'Superaron una desventaja inicial; gran capacidad de reacción y efectividad en ataque.',
+                goleadores: [
+                    {
+                        nacion: 'URU',
+                        jugador: 'Pablo Dorado',
+                        minuto: 12,
+                    },
+                    {
+                        nacion: 'ARG',
+                        jugador: 'Carlos Peucelle',
+                        minuto: 20,
+                    },
+                    {
+                        nacion: 'ARG',
+                        jugador: 'Guillermo Stábile',
+                        minuto: 37,
+                    },
+                    {
+                        nacion: 'URU',
+                        jugador: 'Pedro Cea',
+                        minuto: 57,
+                    },
+                    {
+                        nacion: 'URU',
+                        jugador: 'Santos Iriarte',
+                        minuto: 68,
+                    },
+                    {
+                        nacion: 'URU',
+                        jugador: 'Héctor Castro',
+                        minuto: 89,
+                    },
+                ],
+            },
+        ],
+    },
+    {
+        id: '2010',
+        partidos: [
+            {
+                partido: 'Grupo (España 0-1 Suiza)',
+                resumen:
+                    'Inicio decepcionante, con problemas en la definición y defensa expuesta.',
+                goleadores: [
+                    {
+                        nacion: 'SUI',
+                        jugador: 'Gélson Fernandes',
+                        minuto: 52,
                     },
                 ],
             },
