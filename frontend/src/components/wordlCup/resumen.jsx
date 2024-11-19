@@ -6,7 +6,7 @@ export default function ResumenWC({ worldCId }) {
     return (
         <div className='my-4 dark:text-white'>
             <h3 className='font-semibold text-xl'>Resumen</h3>
-            <ul className='list-disc pl-8'>
+            <ul className='list-disc pl-8 ml-2'>
                 <li className=''>
                     <p>
                         <span className='font-semibold'>Lugar:</span> {mundial.lugar}

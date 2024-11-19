@@ -6,7 +6,7 @@ const CountryFlag = ({ countryId }) => {
 
     return (
         <div>
-            {country ? <Flag countryId={countryId} /> : <Avatar rounded />}
+            {country ? <Flag countryId={countryId} /> : <p>No hay imagen</p>}
         </div>
     );
 };

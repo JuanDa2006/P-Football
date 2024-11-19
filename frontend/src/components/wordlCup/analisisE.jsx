@@ -6,7 +6,7 @@ export default function AnalisisEWC({ worldCIp }) {
     return (
         <div className='my-4 dark:text-white'>
             <h3 className='font-semibold text-xl'>Análisis Estadístico:</h3>
-            <ul className='list-disc pl-8'>
+            <ul className='list-disc pl-8 ml-2'>
                 <li>
                     <p>
                         <span className='font-semibold'>Goles marcados:</span>{' '}

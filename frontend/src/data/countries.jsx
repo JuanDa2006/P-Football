@@ -208,6 +208,7 @@ import VIN from '../assets/images/countries/VIN.png';
 import VIR from '../assets/images/countries/VIR.png';
 import WAL from '../assets/images/countries/WAL.png';
 import YEM from '../assets/images/countries/YEM.png';
+import YUG from '../assets/images/countries/YUG.png';
 import ZAM from '../assets/images/countries/ZAM.png';
 import ZIM from '../assets/images/countries/ZIM.png';
 
@@ -1253,6 +1254,11 @@ const countries = [
         id: 'YEM',
         src: YEM,
         name: 'Yemen',
+    },
+    { 
+        id: 'YUG',
+        src: YUG,
+        name: 'Yugoslavia',
     },
     { 
         id: 'ZAM',
