@@ -1860,6 +1860,10 @@ input[type="range"]::-ms-fill-lower {
   justify-content: space-between;
 }
 
+.gap-0\.5 {
+  gap: 0.125rem;
+}
+
 .gap-1 {
   gap: 0.25rem;
 }
@@ -3718,10 +3722,6 @@ input[type="range"]::-ms-fill-lower {
 .even\:bg-gray-50:nth-child(even) {
   --tw-bg-opacity: 1;
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
-
-.hover\:ml-4:hover {
-  margin-left: 1rem;
 }
 
 .hover\:cursor-not-allowed:hover {
