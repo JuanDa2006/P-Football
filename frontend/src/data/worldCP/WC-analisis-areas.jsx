@@ -132,3 +132,5 @@ const analisis_areas_wc = [
         ataque: '',
     },
 ];
+
+export default analisis_areas_wc
