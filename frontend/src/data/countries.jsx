@@ -714,7 +714,7 @@ const countries = [
     { 
         id: 'KOR',
         src: KOR,
-        name: 'República de Corea',
+        name: 'Corea del Sur',
     },
     { 
         id: 'KOS',
