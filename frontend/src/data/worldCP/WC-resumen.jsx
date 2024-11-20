@@ -634,25 +634,25 @@ const resumen_wc = [
             {
                 confederacion: 'CONCACAF',
                 paises: [
-                    { id: 'GER' },
+                    { id: '' },
                 ],
             },
             {
                 confederacion: 'AFA',
                 paises: [
-                    { id: 'GER' },
+                    { id: '' },
                 ],
             },
             {
                 confederacion: 'UEFA',
                 paises: [
-                    { id: 'GER' },
+                    { id: '' },
                 ],
             },
             {
                 confederacion: 'UEFA',
                 paises: [
-                    { id: 'GER' },
+                    { id: '' },
                 ],
             },
         ],
