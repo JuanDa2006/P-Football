@@ -11,9 +11,15 @@ export default function ResumenWC({ worldCId, hostId }) {
             <ul className='list-disc pl-8 ml-2'>
                 <li className=''>
                     <p className='flex items-center gap-4'>
-                        <span className='font-semibold'>Anfitrión: </span>
+                        {mundial.anfitriones.length > 1 ? (
+                            <span className='font-semibold'>Anfitriones: </span>
+                        ) : (
+                            <span className='font-semibold'>Anfitrión: </span>
+                        )}
                         {mundial.anfitriones.map((anfitiron) => (
-                            <CountryName countryId={anfitiron.id} />
+                            <div>
+                                <CountryName countryId={anfitiron.id} />
+                            </div>
                         ))}
                     </p>
                 </li>
