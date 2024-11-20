@@ -1,7 +1,8 @@
 import resumen_wc from '../../data/worldCP/WC-resumen';
 import CountryFlagSmall from '../countryFlagSmall';
+import CountryName from '../countryName';
 
-export default function ResumenWC({ worldCId }) {
+export default function ResumenWC({ worldCId, hostId }) {
     const mundial = resumen_wc.find((c) => c.id === worldCId);
 
     return (
@@ -11,10 +12,7 @@ export default function ResumenWC({ worldCId }) {
                 <li className=''>
                     <p className='flex items-center gap-4'>
                         <span className='font-semibold'>Anfitrión: </span>
-                        <span className='flex items-center'>
-                            <CountryFlagSmall countryId={mundial.anfitrion.id} />
-                            {mundial.anfitrion.nombre}
-                        </span>
+                        <CountryName countryId={hostId} />
                     </p>
                 </li>
                 <li>
@@ -46,37 +44,25 @@ export default function ResumenWC({ worldCId }) {
                 <li>
                     <p className='flex items-center gap-4'>
                         <span className='font-semibold'>Puesto 1: </span>
-                        <span className='flex items-center'>
-                            <CountryFlagSmall countryId={mundial.puesto_1.id} />
-                            {mundial.puesto_1.name}
-                        </span>
+                        <CountryName countryId={mundial.puesto_1.id} />
                     </p>
                 </li>
                 <li>
                     <p className='flex items-center gap-4'>
                         <span className='font-semibold'>Puesto 2: </span>
-                        <span className='flex items-center'>
-                            <CountryFlagSmall countryId={mundial.puesto_2.id} />
-                            {mundial.puesto_2.name}
-                        </span>
+                        <CountryName countryId={mundial.puesto_2.id} />
                     </p>
                 </li>
                 <li>
                     <p className='flex items-center gap-4'>
                         <span className='font-semibold'>Puesto 3: </span>
-                        <span className='flex items-center'>
-                            <CountryFlagSmall countryId={mundial.puesto_3.id} />
-                            {mundial.puesto_3.name}
-                        </span>
+                        <CountryName countryId={mundial.puesto_3.id} />
                     </p>
                 </li>
                 <li>
                     <p className='flex items-center gap-4'>
                         <span className='font-semibold'>Puesto 4: </span>
-                        <span className='flex items-center'>
-                            <CountryFlagSmall countryId={mundial.puesto_4.id} />
-                            {mundial.puesto_4.name}
-                        </span>
+                        <CountryName countryId={mundial.puesto_4.id} />
                     </p>
                 </li>
             </ul>

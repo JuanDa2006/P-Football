@@ -1,15 +1,16 @@
 const analisis_areas_wc = [
     {
         id: '1930',
-        defensa: '',
-        medio: '',
-        ataque: '',
+        defensa: 'Manejaron una defensa compacta con rápidas recuperaciones.',
+        medio: 'Control del ritmo y soporte en transiciones ofensivas, con buena distribución.',
+        ataque: 'Altamente eficaz y coordinado, con enfoque en precisión y rapidez.',
     },
     {
         id: '1934',
-        defensa: '',
-        medio: '',
-        ataque: '',
+        defensa:
+            'Fuerte y organizada, resistieron bien los ataques rivales y se enfocaron en mantener la portería en cero.',
+        medio: 'Control y distribución, apoyando tanto en defensa como en ofensiva.',
+        ataque: 'Oportunista y rápido, basado en la efectividad en momentos decisivos.',
     },
     {
         id: '1938',
@@ -133,4 +134,4 @@ const analisis_areas_wc = [
     },
 ];
 
-export default analisis_areas_wc
+export default analisis_areas_wc;
