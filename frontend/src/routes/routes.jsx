@@ -44,27 +44,27 @@ function RoutesConfig() {
                 <Route path='/test' element={<Test />} />
                 <Route path='/mundiales' element={<Mundiales />} />
                 <Route path='/mundiales/1930' element={<URU_1930 />} />
-                <Route path='' element={<ITA_1934 />} />
-                <Route path='' element={<FRA_1938 />} />
-                <Route path='' element={<BRA_1950 />} />
-                <Route path='' element={<SUI_1954 />} />
-                <Route path='' element={<SWE_1958 />} />
-                <Route path='' element={<CHI_1962 />} />
-                <Route path='' element={<ENG_1966 />} />
-                <Route path='' element={<MEX_1970 />} />
-                <Route path='' element={<GER_1974 />} />
-                <Route path='' element={<ARG_1978 />} />
-                <Route path='' element={<ESP_1982 />} />
-                <Route path='' element={<MEX_1986 />} />
-                <Route path='' element={<ITA_1990 />} />
-                <Route path='' element={<USA_1994 />} />
-                <Route path='' element={<FRA_1998 />} />
-                <Route path='' element={<KOR_JAP_2002 />} />
-                <Route path='' element={<GER_2006 />} />
+                <Route path='/mundiales/1934' element={<ITA_1934 />} />
+                <Route path='/mundiales/1938' element={<FRA_1938 />} />
+                <Route path='/mundiales/1950' element={<BRA_1950 />} />
+                <Route path='/mundiales/1954' element={<SUI_1954 />} />
+                <Route path='/mundiales/1958' element={<SWE_1958 />} />
+                <Route path='/mundiales/1962' element={<CHI_1962 />} />
+                <Route path='/mundiales/1966' element={<ENG_1966 />} />
+                <Route path='/mundiales/1970' element={<MEX_1970 />} />
+                <Route path='/mundiales/1974' element={<GER_1974 />} />
+                <Route path='/mundiales/1978' element={<ARG_1978 />} />
+                <Route path='/mundiales/1982' element={<ESP_1982 />} />
+                <Route path='/mundiales/1986' element={<MEX_1986 />} />
+                <Route path='/mundiales/1990' element={<ITA_1990 />} />
+                <Route path='/mundiales/1994' element={<USA_1994 />} />
+                <Route path='/mundiales/1998' element={<FRA_1998 />} />
+                <Route path='/mundiales/2002' element={<KOR_JAP_2002 />} />
+                <Route path='/mundiales/2006' element={<GER_2006 />} />
                 <Route path='/mundiales/2010' element={<SUD_2010 />} />
-                <Route path='' element={<BRA_2014 />} />
-                <Route path='' element={<RUS_2018 />} />
-                <Route path='' element={<QAT_2022 />} />
+                <Route path='/mundiales/2014' element={<BRA_2014 />} />
+                <Route path='/mundiales/2018' element={<RUS_2018 />} />
+                <Route path='/mundiales/2022' element={<QAT_2022 />} />
                 <Route path='*' element={<ErrorPage />} />
             </Routes>
         </Suspense>
