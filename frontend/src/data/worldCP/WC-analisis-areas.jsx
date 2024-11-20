@@ -128,9 +128,10 @@ const analisis_areas_wc = [
     },
     {
         id: '2022',
-        defensa: '',
-        medio: '',
-        ataque: '',
+        defensa:
+            'Buena, con Cristian Romero y Nicolás Otamendi liderando la línea; eficaz en el juego aéreo y en la recuperación del balón.',
+        medio: 'Muy sólido, con Rodrigo De Paul y Enzo Fernández proporcionando equilibrio y control en el mediocampo.',
+        ataque: 'Dinámico y versátil; la conexión entre Messi, Álvarez y otros delanteros fue fundamental para el éxito.',
     },
 ];
 

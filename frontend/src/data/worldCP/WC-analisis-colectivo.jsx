@@ -160,10 +160,14 @@ const analisis_colectivo_wc = [
     },
     {
         id: '2022',
-        tactica: '',
-        rendimiento: '',
-        eficacia: '',
-        destreza: '',
+        tactica:
+            'Formación 4-3-3 o 4-2-3-1, con énfasis en el juego de posesión y la creatividad; buena capacidad para presionar y recuperar el balón.',
+        rendimiento:
+            'Muy alto; Argentina mostró un gran nivel de juego, especialmente en las fases de eliminación directa.',
+        eficacia:
+            'Alta; la capacidad de definir en momentos críticos fue clave para el éxito del equipo.',
+        destreza:
+            'Habilidad técnica destacada, con Lionel Messi como figura central, pero también con un sólido respaldo de otros jugadores como Julián Álvarez y Emiliano Martínez.',
     },
 ];
 
