@@ -629,30 +629,57 @@ const resumen_wc = [
                 confederacion: 'UEFA',
                 paises: [
                     { id: 'GER' },
+                    { id: 'BEL' },
+                    { id: 'CRO' },
+                    { id: 'DEN' },
+                    { id: 'ESP' },
+                    { id: 'FRA' },
+                    { id: 'WAL' },
+                    { id: 'ENG' },
+                    { id: 'NED' },
+                    { id: 'POL' },
+                    { id: 'POR' },
+                    { id: 'SRB' },
+                    { id: 'SUI' },
+                ],
+            },
+            {
+                confederacion: 'CONMEBOL',
+                paises: [
+                    { id: 'ARG' },
+                    { id: 'BRA' },
+                    { id: 'ECU' },
+                    { id: 'URU' },
+                ],
+            },
+            {
+                confederacion: 'CAF',
+                paises: [
+                    { id: 'CMR' },
+                    { id: 'GHA' },
+                    { id: 'SEN' },
+                    { id: 'MAR' },
+                    { id: 'TUN' },
+                ],
+            },
+            {
+                confederacion: 'AFC',
+                paises: [
+                    { id: 'KSA' },
+                    { id: 'AUS' },
+                    { id: 'QAT' },
+                    { id: 'KOR' },
+                    { id: 'IRN' },
+                    { id: 'JPN' },
                 ],
             },
             {
                 confederacion: 'CONCACAF',
                 paises: [
-                    { id: '' },
-                ],
-            },
-            {
-                confederacion: 'AFA',
-                paises: [
-                    { id: '' },
-                ],
-            },
-            {
-                confederacion: 'UEFA',
-                paises: [
-                    { id: '' },
-                ],
-            },
-            {
-                confederacion: 'UEFA',
-                paises: [
-                    { id: '' },
+                    { id: 'CAN' },
+                    { id: 'CRC' },
+                    { id: 'USA' },
+                    { id: 'MEX' },
                 ],
             },
         ],

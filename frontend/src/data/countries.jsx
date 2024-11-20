@@ -659,7 +659,7 @@ const countries = [
     { 
         id: 'IRN',
         src: IRN,
-        name: 'RI Irán',
+        name: 'Irán',
     },
     { 
         id: 'IRQ',
