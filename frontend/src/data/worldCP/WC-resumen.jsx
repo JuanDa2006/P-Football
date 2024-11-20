@@ -8,8 +8,12 @@ const resumen_wc = [
         ],
         fechas: '13 al 30 de julio de 1930',
         estadios: '3 (principalmente el Estadio Centenario en Montevideo)',
-        selecciones:
-            '13 equipos (7 de América del Sur, 4 de Europa y 2 de Norteamérica)',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: 'Fase de grupos y luego eliminación directa',
         puesto_1: {
             id: 'URU',
@@ -34,8 +38,12 @@ const resumen_wc = [
         fechas: '27 de mayo al 10 de junio de 1934',
         estadios:
             '8 sedes en distintas ciudades (incluyendo Roma, Milán y Nápoles)',
-        selecciones:
-            '16 equipos (12 europeos, 2 americanos, 1 africano y 1 asiático)',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: 'Eliminación directa desde octavos de final',
         puesto_1: {
             id: 'ITA',
@@ -59,7 +67,12 @@ const resumen_wc = [
         ],
         fechas: '4 al 19 de junio de 1938',
         estadios: '10 sedes en varias ciudades, como París, Marsella y Burdeos',
-        selecciones: '15 equipos (11 europeos, 3 americanos y 1 asiático)',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: 'Eliminación directa desde octavos de final',
         puesto_1: {
             id: 'ITA',
@@ -83,7 +96,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'URU',
@@ -107,7 +125,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'GER',
@@ -131,7 +154,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'BRA',
@@ -155,7 +183,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'BRA',
@@ -179,7 +212,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'ENG',
@@ -203,7 +241,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'BRA',
@@ -227,7 +270,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'GER',
@@ -251,7 +299,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'ARG',
@@ -275,7 +328,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'ITA',
@@ -299,7 +357,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'ARG',
@@ -323,7 +386,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'GER',
@@ -347,7 +415,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'BRA',
@@ -371,7 +444,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'FRA',
@@ -398,7 +476,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'BRA',
@@ -422,7 +505,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'ITA',
@@ -447,8 +535,12 @@ const resumen_wc = [
         fechas: '11 de junio al 11 de julio de 2010',
         estadios:
             '10 sedes en ciudades como Johannesburgo, Ciudad del Cabo, Durban y Pretoria',
-        selecciones:
-            '32 equipos (13 europeos, 6 americanos, 5 africanos, 4 asiáticos y 4 de Concacaf)',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato:
             'Fase de grupos, octavos de final, cuartos de final, semifinales y final.',
         puesto_1: {
@@ -473,7 +565,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'GER',
@@ -497,7 +594,12 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
-        selecciones: '',
+        selecciones: [
+            {
+                confederacion: '',
+                paises: [{}],
+            },
+        ],
         formato: '',
         puesto_1: {
             id: 'FRA',
@@ -520,9 +622,42 @@ const resumen_wc = [
             },
         ],
         fechas: '20 de noviembre al 18 de diciembre de 2022',
-        estadios: '8 sedes en ciudades como Doha, Al Rayyan, Al Wakrah y Lusail',
-        selecciones: '32 equipos (13 europeos, 6 sudamericanos, 5 africanos, 4 asiáticos y 4 de Concacaf)',
-        formato: 'Fase de grupos, octavos de final, cuartos de final, semifinales y final.',
+        estadios:
+            '8 sedes en ciudades como Doha, Al Rayyan, Al Wakrah y Lusail',
+        selecciones: [
+            {
+                confederacion: 'UEFA',
+                paises: [
+                    { id: 'GER' },
+                ],
+            },
+            {
+                confederacion: 'CONCACAF',
+                paises: [
+                    { id: 'GER' },
+                ],
+            },
+            {
+                confederacion: 'AFA',
+                paises: [
+                    { id: 'GER' },
+                ],
+            },
+            {
+                confederacion: 'UEFA',
+                paises: [
+                    { id: 'GER' },
+                ],
+            },
+            {
+                confederacion: 'UEFA',
+                paises: [
+                    { id: 'GER' },
+                ],
+            },
+        ],
+        formato:
+            'Fase de grupos, octavos de final, cuartos de final, semifinales y final.',
         puesto_1: {
             id: 'ARG',
         },

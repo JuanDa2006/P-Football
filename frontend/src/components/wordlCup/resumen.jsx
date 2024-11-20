@@ -38,9 +38,32 @@ export default function ResumenWC({ worldCId, hostId }) {
                 <li>
                     <p>
                         <span className='font-semibold'>
-                            Selecciones participantes:{' '}
+                            Selecciones participantes:
                         </span>
-                        {mundial.selecciones}
+                        <ul className='pl-2 ml-2'>
+                            {mundial.selecciones.map((confederacion, index) => (
+                                <>
+                                    <li key={index}>
+                                        <p>
+                                            <span className='font-semibold'>
+                                                Confederación:{' '}
+                                            </span>
+                                            {confederacion.confederacion}
+                                        </p>
+                                    </li>
+                                    <ul className='list-disc pl-8 ml-2'>
+                                        {confederacion.paises.map(
+                                            (pais, idx) => (
+                                                <CountryName
+                                                    key={idx}
+                                                    countryId={pais.id}
+                                                />
+                                            )
+                                        )}
+                                    </ul>
+                                </>
+                            ))}
+                        </ul>
                     </p>
                 </li>
                 <li>
