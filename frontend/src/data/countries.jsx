@@ -219,12 +219,12 @@ const countries = [
     { 
         id: 'AFG',
         src: AFG,
-        name: 'Afghanistan',
+        name: 'Afganistán',
     },
     { 
         id: 'AIA',
         src: AIA,
-        name: 'Anguilla',
+        name: 'Anguila',
     },
     { 
         id: 'ALB',
@@ -234,7 +234,7 @@ const countries = [
     { 
         id: 'ALG',
         src: ALG,
-        name: 'Algeria',
+        name: 'Argelia',
     },
     { 
         id: 'AND',
@@ -264,12 +264,12 @@ const countries = [
     { 
         id: 'ASA',
         src: ASA,
-        name: 'American Samoa',
+        name: 'Samoa Americana',
     },
     { 
         id: 'ATG',
         src: ATG,
-        name: 'Antigua and Barbuda',
+        name: 'Antigua y Barbuda',
     },
     { 
         id: 'AUS',
@@ -284,7 +284,7 @@ const countries = [
     { 
         id: 'AZE',
         src: AZE,
-        name: 'Azerbaijan',
+        name: 'Azerbaiyán',
     },
     { 
         id: 'BAH',
@@ -304,17 +304,17 @@ const countries = [
     { 
         id: 'BEL',
         src: BEL,
-        name: 'Belgium',
+        name: 'Bélgica',
     },
     { 
         id: 'BEN',
         src: BEN,
-        name: 'Benin',
+        name: 'Benín',
     },
     { 
         id: 'BER',
         src: BER,
-        name: 'Bermuda',
+        name: 'Bermudas',
     },
     { 
         id: 'BFA',
@@ -324,27 +324,27 @@ const countries = [
     { 
         id: 'BHR',
         src: BHR,
-        name: 'Bahrain',
+        name: 'Baréin',
     },
     { 
         id: 'BHU',
         src: BHU,
-        name: 'Bhutan',
+        name: 'Bután',
     },
     { 
         id: 'BIH',
         src: BIH,
-        name: 'Bosnia and Herzegovina',
+        name: 'Bosnia y Herzegovina',
     },
     { 
         id: 'BLR',
         src: BLR,
-        name: 'Belarus',
+        name: 'Bielorrusia',
     },
     { 
         id: 'BLZ',
         src: BLZ,
-        name: 'Belize',
+        name: 'Belice',
     },
     { 
         id: 'BOL',
@@ -354,12 +354,12 @@ const countries = [
     { 
         id: 'BOT',
         src: BOT,
-        name: 'Botswana',
+        name: 'Botsuana',
     },
     { 
         id: 'BRA',
         src: BRA,
-        name: 'Brazil',
+        name: 'Brasil',
     },
     { 
         id: 'BRB',
@@ -369,7 +369,7 @@ const countries = [
     { 
         id: 'BRU',
         src: BRU,
-        name: 'Brunei Darussalam',
+        name: 'Brunéi',
     },
     { 
         id: 'BUL',
@@ -379,17 +379,17 @@ const countries = [
     { 
         id: 'CAM',
         src: CAM,
-        name: 'Cambodia',
+        name: 'Camboya',
     },
     { 
         id: 'CAN',
         src: CAN,
-        name: 'Canada',
+        name: 'Canadá',
     },
     { 
         id: 'CAY',
         src: CAY,
-        name: 'Cayman Islands',
+        name: 'Islas Caimán',
     },
     { 
         id: 'CGO',
@@ -409,7 +409,7 @@ const countries = [
     { 
         id: 'CHN',
         src: CHN,
-        name: 'China PR',
+        name: 'RP China',
     },
     { 
         id: 'CIV',
@@ -419,17 +419,17 @@ const countries = [
     { 
         id: 'CMR',
         src: CMR,
-        name: 'Cameroon',
+        name: 'Camerún',
     },
     { 
         id: 'COD',
         src: COD,
-        name: 'Congo DR',
+        name: 'República Democrática del Congo',
     },
     { 
         id: 'COK',
         src: COK,
-        name: 'Cook Islands',
+        name: 'Islas Cook',
     },
     { 
         id: 'COL',
@@ -439,7 +439,7 @@ const countries = [
     { 
         id: 'COM',
         src: COM,
-        name: 'Comoros',
+        name: 'Comoras',
     },
     { 
         id: 'CPV',
@@ -454,12 +454,12 @@ const countries = [
     { 
         id: 'CRO',
         src: CRO,
-        name: 'Croatia',
+        name: 'Croacia',
     },
     { 
         id: 'CTA',
         src: CTA,
-        name: 'Central African Republic',
+        name: 'República Centroafricana',
     },
     { 
         id: 'CUB',
@@ -474,22 +474,22 @@ const countries = [
     { 
         id: 'CYP',
         src: CYP,
-        name: 'Cyprus',
+        name: 'Chipre',
     },
     { 
         id: 'CZE',
         src: CZE,
-        name: 'Czechia',
+        name: 'Chequia',
     },
     { 
         id: 'DEN',
         src: DEN,
-        name: 'Denmark',
+        name: 'Dinamarca',
     },
     { 
         id: 'DJI',
         src: DJI,
-        name: 'Djibouti',
+        name: 'Yibuti',
     },
     { 
         id: 'DMA',
@@ -499,7 +499,7 @@ const countries = [
     { 
         id: 'DOM',
         src: DOM,
-        name: 'Dominican Republic',
+        name: 'República Dominicana',
     },
     { 
         id: 'ECU',
@@ -509,22 +509,22 @@ const countries = [
     { 
         id: 'EGY',
         src: EGY,
-        name: 'Egypt',
+        name: 'Egipto',
     },
     { 
         id: 'ENG',
         src: ENG,
-        name: 'England',
+        name: 'Inglaterra',
     },
     { 
         id: 'EQG',
         src: EQG,
-        name: 'Equatorial Guinea',
+        name: 'Guinea Ecuatorial',
     },
     { 
         id: 'ESP',
         src: ESP,
-        name: 'Spain',
+        name: 'España',
     },
     { 
         id: 'EST',
@@ -534,7 +534,7 @@ const countries = [
     { 
         id: 'ETH',
         src: ETH,
-        name: 'Ethiopia',
+        name: 'Etiopía',
     },
     { 
         id: 'FIJ',
@@ -544,27 +544,27 @@ const countries = [
     { 
         id: 'FIN',
         src: FIN,
-        name: 'Finland',
+        name: 'Finlandia',
     },
     { 
         id: 'FRA',
         src: FRA,
-        name: 'France',
+        name: 'Francia',
     },
     { 
         id: 'FRO',
         src: FRO,
-        name: 'Faroe Islands',
+        name: 'Islas Faroe',
     },
     { 
         id: 'GAB',
         src: GAB,
-        name: 'Gabon',
+        name: 'Gabón',
     },
     { 
         id: 'GAM',
         src: GAM,
-        name: 'The Gambia',
+        name: 'Gambia',
     },
     { 
         id: 'GEO',
@@ -574,7 +574,7 @@ const countries = [
     { 
         id: 'GER',
         src: GER,
-        name: 'Germany',
+        name: 'Alemania',
     },
     { 
         id: 'GHA',
@@ -594,12 +594,12 @@ const countries = [
     { 
         id: 'GRE',
         src: GRE,
-        name: 'Greece',
+        name: 'Grecia',
     },
     { 
         id: 'GRN',
         src: GRN,
-        name: 'Grenada',
+        name: 'Granada',
     },
     { 
         id: 'GUA',
@@ -624,7 +624,7 @@ const countries = [
     { 
         id: 'HAI',
         src: HAI,
-        name: 'Haiti',
+        name: 'Haití',
     },
     { 
         id: 'HKG',
@@ -639,7 +639,7 @@ const countries = [
     { 
         id: 'HUN',
         src: HUN,
-        name: 'Hungary',
+        name: 'Hungría',
     },
     { 
         id: 'IDN',
@@ -654,22 +654,22 @@ const countries = [
     { 
         id: 'IRL',
         src: IRL,
-        name: 'Republic of Ireland',
+        name: 'República de Irlanda',
     },
     { 
         id: 'IRN',
         src: IRN,
-        name: 'IR Iran',
+        name: 'Irán',
     },
     { 
         id: 'IRQ',
         src: IRQ,
-        name: 'Iraq',
+        name: 'Irak',
     },
     { 
         id: 'ISL',
         src: ISL,
-        name: 'Iceland',
+        name: 'Islandia',
     },
     { 
         id: 'ISR',
@@ -679,7 +679,7 @@ const countries = [
     { 
         id: 'ITA',
         src: ITA,
-        name: 'Italy',
+        name: 'Italia',
     },
     { 
         id: 'JAM',
@@ -689,32 +689,32 @@ const countries = [
     { 
         id: 'JOR',
         src: JOR,
-        name: 'Jordan',
+        name: 'Jordania',
     },
     { 
         id: 'JPN',
         src: JPN,
-        name: 'Japan',
+        name: 'Japón',
     },
     { 
         id: 'KAZ',
         src: KAZ,
-        name: 'Kazakhstan',
+        name: 'Kazajstán',
     },
     { 
         id: 'KEN',
         src: KEN,
-        name: 'Kenya',
+        name: 'Kenia',
     },
     { 
         id: 'KGZ',
         src: KGZ,
-        name: 'Kyrgyz Republic',
+        name: 'República Kirguisa',
     },
     { 
         id: 'KOR',
         src: KOR,
-        name: 'Korea Republic',
+        name: 'Corea del Sur',
     },
     { 
         id: 'KOS',
@@ -724,7 +724,7 @@ const countries = [
     { 
         id: 'KSA',
         src: KSA,
-        name: 'Saudi Arabia',
+        name: 'Arabia Saudí',
     },
     { 
         id: 'KUW',
@@ -739,7 +739,7 @@ const countries = [
     { 
         id: 'LBN',
         src: LBN,
-        name: 'Lebanon',
+        name: 'Líbano',
     },
     { 
         id: 'LBR',
@@ -749,12 +749,12 @@ const countries = [
     { 
         id: 'LBY',
         src: LBY,
-        name: 'Libya',
+        name: 'Libia',
     },
     { 
         id: 'LCA',
         src: LCA,
-        name: 'St Lucia',
+        name: 'Santa Lucía',
     },
     { 
         id: 'LES',
@@ -769,22 +769,22 @@ const countries = [
     { 
         id: 'LTU',
         src: LTU,
-        name: 'Lithuania',
+        name: 'Lituania',
     },
     { 
         id: 'LUX',
         src: LUX,
-        name: 'Luxembourg',
+        name: 'Luxemburgo',
     },
     { 
         id: 'LVA',
         src: LVA,
-        name: 'Latvia',
+        name: 'Letonia',
     },
     { 
         id: 'MAC',
         src: MAC,
-        name: 'Macau',
+        name: 'Macao',
     },
     { 
         id: 'MAD',
@@ -794,37 +794,37 @@ const countries = [
     { 
         id: 'MAR',
         src: MAR,
-        name: 'Morocco',
+        name: 'Marruecos',
     },
     { 
         id: 'MAS',
         src: MAS,
-        name: 'Malaysia',
+        name: 'Malasia',
     },
     { 
         id: 'MDA',
         src: MDA,
-        name: 'Moldova',
+        name: 'Moldavia',
     },
     { 
         id: 'MDV',
         src: MDV,
-        name: 'Maldives',
+        name: 'Maldivas',
     },
     { 
         id: 'MEX',
         src: MEX,
-        name: 'Mexico',
+        name: 'México',
     },
     { 
         id: 'MKD',
         src: MKD,
-        name: 'North Macedonia',
+        name: 'Macedonia del Norte',
     },
     { 
         id: 'MLI',
         src: MLI,
-        name: 'Mali',
+        name: 'Malí',
     },
     { 
         id: 'MLT',
@@ -849,7 +849,7 @@ const countries = [
     { 
         id: 'MRI',
         src: MRI,
-        name: 'Mauritius',
+        name: 'Mauricio',
     },
     { 
         id: 'MSR',
@@ -884,12 +884,12 @@ const countries = [
     { 
         id: 'NCL',
         src: NCL,
-        name: 'New Caledonia',
+        name: 'Nueva Caledonia',
     },
     { 
         id: 'NED',
         src: NED,
-        name: 'Netherlands',
+        name: 'Países Bajos',
     },
     { 
         id: 'NEP',
@@ -904,37 +904,37 @@ const countries = [
     { 
         id: 'NIG',
         src: NIG,
-        name: 'Niger',
+        name: 'Níger',
     },
     { 
         id: 'NIR',
         src: NIR,
-        name: 'Northern Ireland',
+        name: 'Irlanda del Norte',
     },
     { 
         id: 'NOR',
         src: NOR,
-        name: 'Norway',
+        name: 'Noruega',
     },
     { 
         id: 'NZL',
         src: NZL,
-        name: 'New Zealand',
+        name: 'Nueva Zelanda',
     },
     { 
         id: 'OMA',
         src: OMA,
-        name: 'Oman',
+        name: 'Omán',
     },
     { 
         id: 'PAK',
         src: PAK,
-        name: 'Pakistan',
+        name: 'Pakistán',
     },
     { 
         id: 'PAN',
         src: PAN,
-        name: 'Panama',
+        name: 'Panamá',
     },
     { 
         id: 'PAR',
@@ -944,27 +944,27 @@ const countries = [
     { 
         id: 'PER',
         src: PER,
-        name: 'Peru',
+        name: 'Perú',
     },
     { 
         id: 'PHI',
         src: PHI,
-        name: 'Philippines',
+        name: 'Filipinas',
     },
     { 
         id: 'PLE',
         src: PLE,
-        name: 'Palestine',
+        name: 'Palestina',
     },
     { 
         id: 'PNG',
         src: PNG,
-        name: 'Papua New Guinea',
+        name: 'Papúa Nueva Guinea',
     },
     { 
         id: 'POL',
         src: POL,
-        name: 'Poland',
+        name: 'Polonia',
     },
     { 
         id: 'POR',
@@ -974,7 +974,7 @@ const countries = [
     { 
         id: 'PRK',
         src: PRK,
-        name: 'Korea DPR',
+        name: 'República Popular Democrática de Corea',
     },
     { 
         id: 'PUR',
@@ -989,22 +989,22 @@ const countries = [
     { 
         id: 'ROU',
         src: ROU,
-        name: 'Romania',
+        name: 'Rumania',
     },
     { 
         id: 'RSA',
         src: RSA,
-        name: 'South Africa',
+        name: 'Sudáfrica',
     },
     { 
         id: 'RUS',
         src: RUS,
-        name: 'Russia',
+        name: 'Rusia',
     },
     { 
         id: 'RWA',
         src: RWA,
-        name: 'Rwanda',
+        name: 'Ruanda',
     },
     { 
         id: 'SAM',
@@ -1014,12 +1014,12 @@ const countries = [
     { 
         id: 'SCO',
         src: SCO,
-        name: 'Scotland',
+        name: 'Escocia',
     },
     { 
         id: 'SDN',
         src: SDN,
-        name: 'Sudan',
+        name: 'Sudán',
     },
     { 
         id: 'SEN',
@@ -1034,17 +1034,17 @@ const countries = [
     { 
         id: 'SGP',
         src: SGP,
-        name: 'Singapore',
+        name: 'Singapur',
     },
     { 
         id: 'SKN',
         src: SKN,
-        name: 'St Kitts and Nevis',
+        name: 'San Cristóbal y Nieves',
     },
     { 
         id: 'SLE',
         src: SLE,
-        name: 'Sierra Leone',
+        name: 'Sierra Leona',
     },
     { 
         id: 'SLV',
@@ -1059,7 +1059,7 @@ const countries = [
     { 
         id: 'SOL',
         src: SOL,
-        name: 'Solomon Islands',
+        name: 'Islas Salomón',
     },
     { 
         id: 'SOM',
@@ -1079,17 +1079,17 @@ const countries = [
     { 
         id: 'SSD',
         src: SSD,
-        name: 'South Sudan',
+        name: 'Sudán del Sur',
     },
     { 
         id: 'STP',
         src: STP,
-        name: 'São Tomé and Príncipe',
+        name: 'Santo Tomé y Príncipe',
     },
     { 
         id: 'SUI',
         src: SUI,
-        name: 'Switzerland',
+        name: 'Suiza',
     },
     { 
         id: 'SUR',
@@ -1099,32 +1099,32 @@ const countries = [
     { 
         id: 'SVK',
         src: SVK,
-        name: 'Slovakia',
+        name: 'Eslovaquia',
     },
     { 
         id: 'SVN',
         src: SVN,
-        name: 'Slovenia',
+        name: 'Eslovenia',
     },
     { 
         id: 'SWE',
         src: SWE,
-        name: 'Sweden',
+        name: 'Suecia',
     },
     { 
         id: 'SWZ',
         src: SWZ,
-        name: 'Eswatini',
+        name: 'Esuatini',
     },
     { 
         id: 'SYR',
         src: SYR,
-        name: 'Syria',
+        name: 'Siria',
     },
     { 
         id: 'TAH',
         src: TAH,
-        name: 'Tahiti',
+        name: 'Tahití',
     },
     { 
         id: 'TAN',
@@ -1134,7 +1134,7 @@ const countries = [
     { 
         id: 'TCA',
         src: TCA,
-        name: 'Turks and Caicos Islands',
+        name: 'Islas Turcas y Caicos',
     },
     { 
         id: 'TGA',
@@ -1144,17 +1144,17 @@ const countries = [
     { 
         id: 'THA',
         src: THA,
-        name: 'Thailand',
+        name: 'Tailandia',
     },
     { 
         id: 'TJK',
         src: TJK,
-        name: 'Tajikistan',
+        name: 'Tayikistán',
     },
     { 
         id: 'TKM',
         src: TKM,
-        name: 'Turkmenistan',
+        name: 'Turkmenistán',
     },
     { 
         id: 'TLS',
@@ -1169,27 +1169,27 @@ const countries = [
     { 
         id: 'TPE',
         src: TPE,
-        name: 'Chinese Taipei',
+        name: 'Taipei Chino',
     },
     { 
         id: 'TRI',
         src: TRI,
-        name: 'Trinidad and Tobago',
+        name: 'Trinidad y Tobago',
     },
     { 
         id: 'TUN',
         src: TUN,
-        name: 'Tunisia',
+        name: 'Túnez',
     },
     { 
         id: 'TUR',
         src: TUR,
-        name: 'Türkiye',
+        name: 'Turquía',
     },
     { 
         id: 'UAE',
         src: UAE,
-        name: 'United Arab Emirates',
+        name: 'Emiratos Árabes Unidos',
     },
     { 
         id: 'UGA',
@@ -1199,7 +1199,7 @@ const countries = [
     { 
         id: 'UKR',
         src: UKR,
-        name: 'Ukraine',
+        name: 'Ucrania',
     },
     { 
         id: 'URS',
@@ -1214,12 +1214,12 @@ const countries = [
     { 
         id: 'USA',
         src: USA,
-        name: 'USA',
+        name: 'Estados Unidos',
     },
     { 
         id: 'UZB',
         src: UZB,
-        name: 'Uzbekistan',
+        name: 'Uzbekistán',
     },
     { 
         id: 'VAN',
@@ -1234,7 +1234,7 @@ const countries = [
     { 
         id: 'VGB',
         src: VGB,
-        name: 'British Virgin Islands',
+        name: 'Islas Vírgenes Británicas',
     },
     { 
         id: 'VIE',
@@ -1244,17 +1244,17 @@ const countries = [
     { 
         id: 'VIN',
         src: VIN,
-        name: 'St Vincent and the Grenadines',
+        name: 'San Vicente y las Granadinas',
     },
     { 
         id: 'VIR',
         src: VIR,
-        name: 'US Virgin Islands',
+        name: 'Islas Vírgenes de EE. UU.',
     },
     { 
         id: 'WAL',
         src: WAL,
-        name: 'Wales',
+        name: 'Gales',
     },
     { 
         id: 'YEM',
@@ -1274,7 +1274,7 @@ const countries = [
     { 
         id: 'ZIM',
         src: ZIM,
-        name: 'Zimbabwe',
+        name: 'Zimbabue',
     },
 ];
 

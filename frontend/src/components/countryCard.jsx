@@ -1,19 +1,22 @@
 import countries from '../data/countries';
 import { Card } from 'flowbite-react';
 
-const CountryCard = ({ countryId }) => {
+const CountryCard = ({ countryId, text }) => {
     const country = countries.find((c) => c.id === countryId);
 
     return (
         <div>
             {country ? (
-                <Card className='w-96'>
+                <Card className='w-80'>
                     <img
                         src={country.src}
                         alt={country.name}
                         className='rounded-md'
                     />
-                    <h1>{country.name}</h1>
+                    <h1 className='text-2xl dark:text-white'>
+                        <span className='font-bold'>{text}</span>
+                        {country.name}
+                    </h1>
                 </Card>
             ) : (
                 <Card className='w-96'>

@@ -106,8 +106,8 @@ const analisis_estadistico_wc = [
     },
     {
         id: '2022',
-        goles_marcados: 0,
-        goles_recibidos: 0,
+        goles_marcados: 15,
+        goles_recibidos: 8,
     },
 ];
 
