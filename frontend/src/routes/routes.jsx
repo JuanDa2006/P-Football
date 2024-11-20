@@ -1,4 +1,10 @@
+// Imports
+import React, { lazy, Suspense } from 'react';
+import { Route, Routes } from 'react-router-dom';
+
 // Routes
+const Home = lazy(() => import('../pages/mundiales/1930-Uruguay'));
+
 import Home from '../pages/home';
 import Mundiales from '../pages/mundiales';
 import Test from '../pages/test';
@@ -28,120 +34,16 @@ import RUS_2018 from '../pages/mundiales/2018-Rusia';
 import QAT_2022 from '../pages/mundiales/2022-Catar';
 
 // Const
-const routesConfig = [
-    { path: '/', name: 'Inicio', element: <Home /> },
-    { path: '/mundiales', name: 'Mundiales', element: <Mundiales /> },
-    { path: '/test', name: 'Test', element: <Test /> },
-    {
-        path: '/mundiales/mundial/1930',
-        name: 'Uruguay - 1930',
-        element: <URU_1930 />,
-    },
-    {
-        path: '/mundiales/mundial/1934',
-        name: 'Italia - 1934',
-        element: <ITA_1934 />,
-    },
-    {
-        path: '/mundiales/mundial/1938',
-        name: 'Francia - 1938',
-        element: <FRA_1938 />,
-    },
-    {
-        path: '/mundiales/mundial/1950',
-        name: 'Brasil - 1950',
-        element: <BRA_1950 />,
-    },
-    {
-        path: '/mundiales/mundial/1954',
-        name: 'Suiza - 1954',
-        element: <SUI_1954 />,
-    },
-    {
-        path: '/mundiales/mundial/1958',
-        name: 'Suecia - 1958',
-        element: <SWE_1958 />,
-    },
-    {
-        path: '/mundiales/mundial/1962',
-        name: 'Chile - 1962',
-        element: <CHI_1962 />,
-    },
-    {
-        path: '/mundiales/mundial/1966',
-        name: 'Inglaterra - 1966',
-        element: <ENG_1966 />,
-    },
-    {
-        path: '/mundiales/mundial/1970',
-        name: 'México - 1970',
-        element: <MEX_1970 />,
-    },
-    {
-        path: '/mundiales/mundial/1974',
-        name: 'Alemania - 1974',
-        element: <GER_1974 />,
-    },
-    {
-        path: '/mundiales/mundial/1978',
-        name: 'Argentina - 1978',
-        element: <ARG_1978 />,
-    },
-    {
-        path: '/mundiales/mundial/1982',
-        name: 'España - 1982',
-        element: <ESP_1982 />,
-    },
-    {
-        path: '/mundiales/mundial/1986',
-        name: 'México - 1986',
-        element: <MEX_1986 />,
-    },
-    {
-        path: '/mundiales/mundial/1990',
-        name: 'Italia - 1990',
-        element: <ITA_1990 />,
-    },
-    {
-        path: '/mundiales/mundial/1994',
-        name: 'Estados Unidos - 1994',
-        element: <USA_1994 />,
-    },
-    {
-        path: '/mundiales/mundial/1998',
-        name: 'Francia - 1998',
-        element: <FRA_1998 />,
-    },
-    {
-        path: '/mundiales/mundial/2002',
-        name: 'Corea / Japón - 2002',
-        element: <KOR_JAP_2002 />,
-    },
-    {
-        path: '/mundiales/mundial/2006',
-        name: 'Alemania - 2006',
-        element: <GER_2006 />,
-    },
-    {
-        path: '/mundiales/mundial/2010',
-        name: 'Sudafrica - 2010',
-        element: <SUD_2010 />,
-    },
-    {
-        path: '/mundiales/mundial/2014',
-        name: 'Brasil - 2014',
-        element: <BRA_2014 />,
-    },
-    {
-        path: '/mundiales/mundial/2018',
-        name: 'Rusia - 2018',
-        element: <RUS_2018 />,
-    },
-    {
-        path: '/mundiales/mundial/2022',
-        name: 'Catar - 2022',
-        element: <QAT_2022 />,
-    },
-];
+function Loading() {
+    return <div>Loadding...</div>;
+}
 
-export default routesConfig;
+function RoutesConfig() {
+    return (
+        <Suspense fellback={<Loading />}>
+            <Routes>
+                <Route path='Home' element={<Home />} />
+            </Routes>
+        </Suspense>
+    )
+}
