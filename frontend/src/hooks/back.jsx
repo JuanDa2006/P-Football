@@ -9,7 +9,7 @@ const GoBack = () => {
     return (
         <Link
             onClick={() => navigate(-1)}
-            className='dark:text-gray-400 text-gray-700 flex items-center gap-2 m-4'
+            className='dark:text-gray-400 text-gray-700 flex items-center justify-center gap-2 m-4 w-20'
         >
             <FaArrowAltCircleLeft />
             Vovler
