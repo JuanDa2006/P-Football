@@ -1,3 +1,24 @@
+const crearEquipo = (
+    nombre,
+    puntos,
+    partidosJugados,
+    partidosGanados,
+    partidosEmpatados,
+    partidosPerdidos,
+    golesFavor,
+    golesContra
+) => ({
+    nombre,
+    puntos,
+    partidosJugados,
+    partidosGanados,
+    partidosEmpatados,
+    partidosPerdidos,
+    golesFavor,
+    golesContra,
+    diferenciaGoles: golesFavor - golesContra,
+});
+
 const resumen_wc = [
     {
         id: '1930',
@@ -10,8 +31,8 @@ const resumen_wc = [
         estadios: '3 (principalmente el Estadio Centenario en Montevideo)',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: 'Fase de grupos y luego eliminación directa',
@@ -40,8 +61,8 @@ const resumen_wc = [
             '8 sedes en distintas ciudades (incluyendo Roma, Milán y Nápoles)',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: 'Eliminación directa desde octavos de final',
@@ -69,8 +90,8 @@ const resumen_wc = [
         estadios: '10 sedes en varias ciudades, como París, Marsella y Burdeos',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: 'Eliminación directa desde octavos de final',
@@ -98,8 +119,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -127,8 +148,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -156,8 +177,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -185,8 +206,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -214,8 +235,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -243,8 +264,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -272,8 +293,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -301,8 +322,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -330,8 +351,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -359,8 +380,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -388,8 +409,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -417,8 +438,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -446,8 +467,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -478,8 +499,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -507,8 +528,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -537,8 +558,8 @@ const resumen_wc = [
             '10 sedes en ciudades como Johannesburgo, Ciudad del Cabo, Durban y Pretoria',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato:
@@ -567,8 +588,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -596,8 +617,8 @@ const resumen_wc = [
         estadios: '',
         selecciones: [
             {
-                confederacion: '',
-                paises: [{}],
+                grupo: '',
+                paises: [crearEquipo()],
             },
         ],
         formato: '',
@@ -626,62 +647,23 @@ const resumen_wc = [
             '8 sedes en ciudades como Doha, Al Rayyan, Al Wakrah y Lusail',
         selecciones: [
             {
-                confederacion: 'UEFA',
+                grupo: 'A',
                 paises: [
-                    { id: 'GER' },
-                    { id: 'BEL' },
-                    { id: 'CRO' },
-                    { id: 'DEN' },
-                    { id: 'ESP' },
-                    { id: 'FRA' },
-                    { id: 'WAL' },
-                    { id: 'ENG' },
-                    { id: 'NED' },
-                    { id: 'POL' },
-                    { id: 'POR' },
-                    { id: 'SRB' },
-                    { id: 'SUI' },
+                    crearEquipo('NED', 7, 3, 2, 1, 0, 5, 1),
+                    crearEquipo('SEN', 6, 3, 2, 0, 1, 5, 4),
+                    crearEquipo('ECU', 4, 3, 1, 1, 1, 4, 3),
+                    crearEquipo('QAT', 0, 3, 0, 0, 3, 1, 7),
                 ],
             },
             {
-                confederacion: 'CONMEBOL',
+                grupo: 'B',
                 paises: [
-                    { id: 'ARG' },
-                    { id: 'BRA' },
-                    { id: 'ECU' },
-                    { id: 'URU' },
-                ],
-            },
-            {
-                confederacion: 'CAF',
-                paises: [
-                    { id: 'CMR' },
-                    { id: 'GHA' },
-                    { id: 'SEN' },
-                    { id: 'MAR' },
-                    { id: 'TUN' },
-                ],
-            },
-            {
-                confederacion: 'AFC',
-                paises: [
-                    { id: 'KSA' },
-                    { id: 'AUS' },
-                    { id: 'QAT' },
-                    { id: 'KOR' },
-                    { id: 'IRN' },
-                    { id: 'JPN' },
-                ],
-            },
-            {
-                confederacion: 'CONCACAF',
-                paises: [
-                    { id: 'CAN' },
-                    { id: 'CRC' },
-                    { id: 'USA' },
-                    { id: 'MEX' },
-                ],
-            },
+                    crearEquipo('ENG', 7, 3, 2, 1, 0, 9, 2),
+                    crearEquipo('USA', 5, 3, 1, 2, 0, 2, 1),
+                    crearEquipo('IRN', 3, 3, 1, 0, 2, 4, 7),
+                    crearEquipo('WAL', 1, 3, 0, 1, 2, 1, 6),
+                ]
+            }
         ],
         formato:
             'Fase de grupos, octavos de final, cuartos de final, semifinales y final.',

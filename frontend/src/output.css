@@ -1245,6 +1245,11 @@ input[type="range"]::-ms-fill-lower {
   margin-bottom: 2rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .-mb-px {
   margin-bottom: -1px;
 }
@@ -1355,6 +1360,10 @@ input[type="range"]::-ms-fill-lower {
 
 .mt-6 {
   margin-top: 1.5rem;
+}
+
+.-ml-10 {
+  margin-left: -2.5rem;
 }
 
 .block {
@@ -1526,6 +1535,10 @@ input[type="range"]::-ms-fill-lower {
   width: 5rem;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .w-3 {
   width: 0.75rem;
 }
@@ -1600,6 +1613,18 @@ input[type="range"]::-ms-fill-lower {
   width: 100vw;
 }
 
+.w-32 {
+  width: 8rem;
+}
+
+.w-28 {
+  width: 7rem;
+}
+
+.w-40 {
+  width: 10rem;
+}
+
 .min-w-11 {
   min-width: 2.75rem;
 }
@@ -1670,6 +1695,10 @@ input[type="range"]::-ms-fill-lower {
 
 .shrink-0 {
   flex-shrink: 0;
+}
+
+.border-collapse {
+  border-collapse: collapse;
 }
 
 .origin-\[0\] {
@@ -2263,6 +2292,11 @@ input[type="range"]::-ms-fill-lower {
 .border-red-900 {
   --tw-border-opacity: 1;
   border-color: rgb(119 29 29 / var(--tw-border-opacity));
+}
+
+.border-slate-600 {
+  --tw-border-opacity: 1;
+  border-color: rgb(71 85 105 / var(--tw-border-opacity));
 }
 
 .border-teal-300 {
@@ -2931,6 +2965,10 @@ input[type="range"]::-ms-fill-lower {
   padding-left: 4rem;
 }
 
+.pl-2 {
+  padding-left: 0.5rem;
+}
+
 .pl-2\.5 {
   padding-left: 0.625rem;
 }
@@ -2977,14 +3015,6 @@ input[type="range"]::-ms-fill-lower {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
-}
-
-.pl-2 {
-  padding-left: 0.5rem;
 }
 
 .text-left {
