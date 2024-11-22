@@ -334,7 +334,7 @@ const countries = [
     { 
         id: 'BIH',
         src: BIH,
-        name: 'Bosnia y Herzegovina',
+        name: 'Bosnia',
     },
     { 
         id: 'BLR',
@@ -414,7 +414,7 @@ const countries = [
     { 
         id: 'CIV',
         src: CIV,
-        name: "Côte d'Ivoire",
+        name: "Costa de Marfil",
     },
     { 
         id: 'CMR',

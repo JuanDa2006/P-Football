@@ -410,8 +410,76 @@ const resumen_wc = [
         grupos: '/mundiales/2014/grupos',
         selecciones: [
             {
-                grupo: '',
-                paises: [crearSeleccion()],
+                grupo: 'A',
+                paises: [
+                    crearSeleccion('BRA', 7, 3, 2, 1, 0, 7, 2, true),
+                    crearSeleccion('MEX', 7, 3, 2, 1, 0, 4, 1, true),
+                    crearSeleccion('CRO', 3, 3, 1, 0, 2, 6, 6),
+                    crearSeleccion('CMR', 0, 3, 0, 0, 3, 1, 9),
+                ],
+            },
+            {
+                grupo: 'B',
+                paises: [
+                    crearSeleccion('NED', 9, 3, 3, 0, 0, 10, 3, true),
+                    crearSeleccion('CHI', 6, 3, 2, 0, 1, 5, 3, true),
+                    crearSeleccion('ESP', 3, 3, 1, 0, 2, 4, 7),
+                    crearSeleccion('AUS', 0, 3, 0, 0, 3, 3, 9),
+                ],
+            },
+            {
+                grupo: 'C',
+                paises: [
+                    crearSeleccion('COL', 9, 3, 3, 0, 0, 9, 2, true),
+                    crearSeleccion('GRE', 4, 3, 1, 1, 1, 2, 4, true),
+                    crearSeleccion('CIV', 3, 3, 1, 0, 2, 4, 5),
+                    crearSeleccion('JPN', 1, 3, 0, 1, 2, 2, 6),
+                ],
+            },
+            {
+                grupo: 'D',
+                paises: [
+                    crearSeleccion('CRC', 7, 3, 2, 1, 0, 4, 1, true),
+                    crearSeleccion('URU', 6, 3, 2, 0, 1, 4, 4, true),
+                    crearSeleccion('ITA', 3, 3, 1, 0, 2, 2, 3),
+                    crearSeleccion('ENG', 1, 3, 0, 1, 2, 2, 4),
+                ],
+            },
+            {
+                grupo: 'E',
+                paises: [
+                    crearSeleccion('FRA'),
+                    crearSeleccion('SUI'),
+                    crearSeleccion('ECU'),
+                    crearSeleccion('HON'),
+                ],
+            },
+            {
+                grupo: 'F',
+                paises: [
+                    crearSeleccion('ARG'),
+                    crearSeleccion('NGA'),
+                    crearSeleccion('BIH'),
+                    crearSeleccion('IRN'),
+                ],
+            },
+            {
+                grupo: 'G',
+                paises: [
+                    crearSeleccion('GER'),
+                    crearSeleccion('USA'),
+                    crearSeleccion('POR'),
+                    crearSeleccion('GHA'),
+                ],
+            },
+            {
+                grupo: 'H',
+                paises: [
+                    crearSeleccion('BEL'),
+                    crearSeleccion('ALG'),
+                    crearSeleccion('RUS'),
+                    crearSeleccion('KOR'),
+                ],
             },
         ],
         formato: '',
