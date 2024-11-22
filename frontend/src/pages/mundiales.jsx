@@ -9,7 +9,7 @@ export default function Mundiales() {
             <BaseLayout pageName={'Mundiales'}>
                 <p className='dark:text-white'>
                     En éste estudio, analizaremos cada selección ganadora de un
-                    mundial.
+                    mundial. 
                 </p>
                 <div>
                     <h2 className='my-4 font-bold text-xl dark:text-white   '>
