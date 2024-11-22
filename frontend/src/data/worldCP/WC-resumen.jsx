@@ -1,32 +1,5 @@
-const crearPodio = (puesto_1, puesto_2, puesto_3, puesto_4) => ({
-    puesto_1,
-    puesto_2,
-    puesto_3,
-    puesto_4,
-});
-
-const crearSeleccion = (
-    nombre,
-    puntos,
-    partidosJugados,
-    partidosGanados,
-    partidosEmpatados,
-    partidosPerdidos,
-    golesFavor,
-    golesContra,
-    pasa
-) => ({
-    nombre,
-    puntos,
-    partidosJugados,
-    partidosGanados,
-    partidosEmpatados,
-    partidosPerdidos,
-    golesFavor,
-    golesContra,
-    pasa,
-    diferenciaGoles: golesFavor - golesContra,
-});
+import crearSeleccion from '../../services/crearSeleccion';
+import crearPodio from '../../services/crearPodio';
 
 const resumen_wc = [
     {
