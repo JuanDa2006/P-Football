@@ -1,5 +1,6 @@
 import resumen_wc from '../../data/worldCP/WC-resumen';
-import CountryFlagSmall from '../countryFlagSmall';
+import { IoCheckmark } from "react-icons/io5";
+import { IoCloseSharp } from "react-icons/io5";
 import CountryName from '../countryName';
 
 export default function ResumenWC({ worldCId, hostId }) {
@@ -40,97 +41,113 @@ export default function ResumenWC({ worldCId, hostId }) {
                         <span className='font-semibold'>
                             Selecciones participantes y grupos:
                         </span>
-                        <ul className='-ml-10 flex flex-wrap justify-between'>
+                        <ul className='-ml-10 flex flex-col gap-4'>
                             {mundial.selecciones.map((grupos, index) => (
-                                <div key={index}>
+                                <div key={index} className=''>
                                     <h3>
                                         <span className='font-bold'>
                                             Grupo:{' '}
                                         </span>
                                         {grupos.grupo}
                                     </h3>
-                                    <table className='border-colapse border border-slate-600'>
-                                        <thead>
-                                            <tr>
-                                                <th className='w-48 text-center border-colapse border border-slate-600'>
-                                                    Equipo
-                                                </th>
-                                                <th className='w-20 text-center border-colapse border border-slate-600'>
-                                                    Puntos
-                                                </th>
-                                                <th className='w-8 text-center border-colapse border border-slate-600'>
-                                                    PJ
-                                                </th>
-                                                <th className='w-8 text-center border-colapse border border-slate-600'>
-                                                    PG
-                                                </th>
-                                                <th className='w-8 text-center border-colapse border border-slate-600'>
-                                                    PE
-                                                </th>
-                                                <th className='w-8 text-center border-colapse border border-slate-600'>
-                                                    PP
-                                                </th>
-                                                <th className='w-8 text-center border-colapse border border-slate-600'>
-                                                    GF
-                                                </th>
-                                                <th className='w-8 text-center border-colapse border border-slate-600'>
-                                                    GC
-                                                </th>
-                                                <th className='w-8 text-center border-colapse border border-slate-600'>
-                                                    DG
-                                                </th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {grupos.paises.map(
-                                                (equipo, idx) => (
-                                                    <tr key={idx}>
-                                                        <td className='pl-2 border-collapse border border-slate-600'>
-                                                            <CountryName
-                                                                countryId={
-                                                                    equipo.nombre
+                                    <div className='overflow-x-auto'>
+                                        <table className='min-w-full border-colapse border border-slate-600'>
+                                            <thead>
+                                                <tr>
+                                                    <th className='min-w-48 w-48 text-center border-colapse border border-slate-600'>
+                                                        Equipo
+                                                    </th>
+                                                    <th className='min-w-20 w-20 text-center border-colapse border border-slate-600'>
+                                                        Puntos
+                                                    </th>
+                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
+                                                        PJ
+                                                    </th>
+                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
+                                                        PG
+                                                    </th>
+                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
+                                                        PE
+                                                    </th>
+                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
+                                                        PP
+                                                    </th>
+                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
+                                                        GF
+                                                    </th>
+                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
+                                                        GC
+                                                    </th>
+                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
+                                                        DG
+                                                    </th>
+                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
+                                                        Pasa
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {grupos.paises.map(
+                                                    (equipo, idx) => (
+                                                        <tr key={idx}>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                <CountryName
+                                                                    countryId={
+                                                                        equipo.nombre
+                                                                    }
+                                                                />
+                                                            </td>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                {equipo.puntos}
+                                                            </td>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                {
+                                                                    equipo.partidosJugados
                                                                 }
-                                                            />
-                                                        </td>
-                                                        <td className='pl-2 border-collapse border border-slate-600'>
-                                                            {equipo.puntos}
-                                                        </td>
-                                                        <td className='pl-2 border-collapse border border-slate-600'>
-                                                            {
-                                                                equipo.partidosJugados
-                                                            }
-                                                        </td>
-                                                        <td className='pl-2 border-collapse border border-slate-600'>
-                                                            {
-                                                                equipo.partidosGanados
-                                                            }
-                                                        </td>
-                                                        <td className='pl-2 border-collapse border border-slate-600'>
-                                                            {
-                                                                equipo.partidosEmpatados
-                                                            }
-                                                        </td>
-                                                        <td className='pl-2 border-collapse border border-slate-600'>
-                                                            {
-                                                                equipo.partidosPerdidos
-                                                            }
-                                                        </td>
-                                                        <td className='pl-2 border-collapse border border-slate-600'>
-                                                            {equipo.golesFavor}
-                                                        </td>
-                                                        <td className='pl-2 border-collapse border border-slate-600'>
-                                                            {equipo.golesContra}
-                                                        </td>
-                                                        <td className='pl-2 border-collapse border border-slate-600'>
-                                                            {
-                                                                equipo.diferenciaGoles
-                                                            }
-                                                        </td>
-                                                    </tr>
-                                                )
-                                            )}
-                                        </tbody>
-                                    </table>
+                                                            </td>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                {
+                                                                    equipo.partidosGanados
+                                                                }
+                                                            </td>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                {
+                                                                    equipo.partidosEmpatados
+                                                                }
+                                                            </td>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                {
+                                                                    equipo.partidosPerdidos
+                                                                }
+                                                            </td>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                {
+                                                                    equipo.golesFavor
+                                                                }
+                                                            </td>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                {
+                                                                    equipo.golesContra
+                                                                }
+                                                            </td>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                {
+                                                                    equipo.diferenciaGoles
+                                                                }
+                                                            </td>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                {equipo.pasa ? (
+                                                                    <IoCheckmark />
+                                                                ) : (
+                                                                    <IoCloseSharp />
+                                                                )}
+                                                            </td>
+                                                        </tr>
+                                                    )
+                                                )}
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             ))}
                         </ul>
@@ -145,25 +162,25 @@ export default function ResumenWC({ worldCId, hostId }) {
                 <li>
                     <p className='flex items-center gap-4'>
                         <span className='font-semibold'>Puesto 1: </span>
-                        <CountryName countryId={mundial.puesto_1.id} />
+                        <CountryName countryId={mundial.podio.puesto_1} />
                     </p>
                 </li>
                 <li>
                     <p className='flex items-center gap-4'>
                         <span className='font-semibold'>Puesto 2: </span>
-                        <CountryName countryId={mundial.puesto_2.id} />
+                        <CountryName countryId={mundial.podio.puesto_2} />
                     </p>
                 </li>
                 <li>
                     <p className='flex items-center gap-4'>
                         <span className='font-semibold'>Puesto 3: </span>
-                        <CountryName countryId={mundial.puesto_3.id} />
+                        <CountryName countryId={mundial.podio.puesto_3} />
                     </p>
                 </li>
                 <li>
                     <p className='flex items-center gap-4'>
                         <span className='font-semibold'>Puesto 4: </span>
-                        <CountryName countryId={mundial.puesto_4.id} />
+                        <CountryName countryId={mundial.podio.puesto_4} />
                     </p>
                 </li>
             </ul>

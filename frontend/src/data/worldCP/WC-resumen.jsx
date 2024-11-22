@@ -1,3 +1,10 @@
+const crearPodio = (puesto_1, puesto_2, puesto_3, puesto_4) => ({
+    puesto_1,
+    puesto_2,
+    puesto_3,
+    puesto_4,
+});
+
 const crearEquipo = (
     nombre,
     puntos,
@@ -6,7 +13,8 @@ const crearEquipo = (
     partidosEmpatados,
     partidosPerdidos,
     golesFavor,
-    golesContra
+    golesContra,
+    pasa
 ) => ({
     nombre,
     puntos,
@@ -16,6 +24,7 @@ const crearEquipo = (
     partidosPerdidos,
     golesFavor,
     golesContra,
+    pasa,
     diferenciaGoles: golesFavor - golesContra,
 });
 
@@ -36,18 +45,7 @@ const resumen_wc = [
             },
         ],
         formato: 'Fase de grupos y luego eliminación directa',
-        puesto_1: {
-            id: 'URU',
-        },
-        puesto_2: {
-            id: 'ARG',
-        },
-        puesto_3: {
-            id: 'USA',
-        },
-        puesto_4: {
-            id: 'YUG',
-        },
+        podio: crearPodio('URU', 'ARG', 'USA', 'YUG'),
     },
     {
         id: '1934',
@@ -66,18 +64,7 @@ const resumen_wc = [
             },
         ],
         formato: 'Eliminación directa desde octavos de final',
-        puesto_1: {
-            id: 'ITA',
-        },
-        puesto_2: {
-            id: 'CZE',
-        },
-        puesto_3: {
-            id: 'GER',
-        },
-        puesto_4: {
-            id: 'AUT',
-        },
+        podio: crearPodio('ITA', 'CZE', 'GER', 'AUT'),
     },
     {
         id: '1938',
@@ -95,18 +82,7 @@ const resumen_wc = [
             },
         ],
         formato: 'Eliminación directa desde octavos de final',
-        puesto_1: {
-            id: 'ITA',
-        },
-        puesto_2: {
-            id: 'HUN',
-        },
-        puesto_3: {
-            id: 'BRA',
-        },
-        puesto_4: {
-            id: 'SWE',
-        },
+        podio: crearPodio('ITA', 'HUN', 'BRA', 'SWE'),
     },
     {
         id: '1950',
@@ -124,18 +100,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'URU',
-        },
-        puesto_2: {
-            id: 'BRA',
-        },
-        puesto_3: {
-            id: 'SWE',
-        },
-        puesto_4: {
-            id: 'ESP',
-        },
+        podio: crearPodio('URU', 'BRA', 'SWE', 'ESP'),
     },
     {
         id: '1954',
@@ -153,18 +118,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'GER',
-        },
-        puesto_2: {
-            id: 'HUN',
-        },
-        puesto_3: {
-            id: 'AUT',
-        },
-        puesto_4: {
-            id: 'URU',
-        },
+        podio: crearPodio('GER', 'HUN', 'AUT', 'URU'),
     },
     {
         id: '1958',
@@ -182,18 +136,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'BRA',
-        },
-        puesto_2: {
-            id: 'SWE',
-        },
-        puesto_3: {
-            id: 'FRA',
-        },
-        puesto_4: {
-            id: 'GER',
-        },
+        podio: crearPodio('BRA', 'SWE', 'FRA', 'GER'),
     },
     {
         id: '1962',
@@ -211,18 +154,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'BRA',
-        },
-        puesto_2: {
-            id: 'CZE',
-        },
-        puesto_3: {
-            id: 'CHI',
-        },
-        puesto_4: {
-            id: 'YUG',
-        },
+        podio: crearPodio('BRA', 'CZE', 'CHI', 'YUG'),
     },
     {
         id: '1966',
@@ -240,18 +172,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'ENG',
-        },
-        puesto_2: {
-            id: 'GER',
-        },
-        puesto_3: {
-            id: 'POR',
-        },
-        puesto_4: {
-            id: 'URS',
-        },
+        podio: crearPodio('ENG', 'GER', 'POR', 'URS'),
     },
     {
         id: '1970',
@@ -269,18 +190,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'BRA',
-        },
-        puesto_2: {
-            id: 'ITA',
-        },
-        puesto_3: {
-            id: 'GER',
-        },
-        puesto_4: {
-            id: 'URU',
-        },
+        podio: crearPodio('BRA', 'ITA', 'GER', 'URU'),
     },
     {
         id: '1974',
@@ -298,18 +208,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'GER',
-        },
-        puesto_2: {
-            id: 'NED',
-        },
-        puesto_3: {
-            id: 'POL',
-        },
-        puesto_4: {
-            id: 'BRA',
-        },
+        podio: crearPodio('GER', 'NED', 'POL', 'BRA'),
     },
     {
         id: '1978',
@@ -327,18 +226,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'ARG',
-        },
-        puesto_2: {
-            id: 'NED',
-        },
-        puesto_3: {
-            id: 'BRA',
-        },
-        puesto_4: {
-            id: 'ITA',
-        },
+        podio: crearPodio('ARG', 'NED', 'BRA', 'ITA'),
     },
     {
         id: '1982',
@@ -356,18 +244,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'ITA',
-        },
-        puesto_2: {
-            id: 'GER',
-        },
-        puesto_3: {
-            id: 'POL',
-        },
-        puesto_4: {
-            id: 'FRA',
-        },
+        podio: crearPodio('ITA', 'GER', 'POL', 'FRA'),
     },
     {
         id: '1986',
@@ -385,18 +262,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'ARG',
-        },
-        puesto_2: {
-            id: 'GER',
-        },
-        puesto_3: {
-            id: 'FRA',
-        },
-        puesto_4: {
-            id: 'BEL',
-        },
+        podio: crearPodio('ARG', 'GER', 'FRA', 'BEL'),
     },
     {
         id: '1990',
@@ -414,18 +280,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'GER',
-        },
-        puesto_2: {
-            id: 'ARG',
-        },
-        puesto_3: {
-            id: 'ITA',
-        },
-        puesto_4: {
-            id: 'ENG',
-        },
+        podio: crearPodio('GER', 'ARG', 'ITA', 'ENG'),
     },
     {
         id: '1994',
@@ -443,18 +298,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'BRA',
-        },
-        puesto_2: {
-            id: 'ITA',
-        },
-        puesto_3: {
-            id: 'SWE',
-        },
-        puesto_4: {
-            id: 'BUL',
-        },
+        podio: crearPodio('BRA', 'ITA', 'SWE', 'BUL'),
     },
     {
         id: '1998',
@@ -472,18 +316,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'FRA',
-        },
-        puesto_2: {
-            id: 'BRA',
-        },
-        puesto_3: {
-            id: 'CRO',
-        },
-        puesto_4: {
-            id: 'NED',
-        },
+        podio: crearPodio('FRA', 'BRA', 'CRO', 'NED'),
     },
     {
         id: '2002',
@@ -504,18 +337,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'BRA',
-        },
-        puesto_2: {
-            id: 'GER',
-        },
-        puesto_3: {
-            id: 'TUR',
-        },
-        puesto_4: {
-            id: 'KOR',
-        },
+        podio: crearPodio('BRA', 'GER', 'TUR', 'KOR'),
     },
     {
         id: '2006',
@@ -533,18 +355,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'ITA',
-        },
-        puesto_2: {
-            id: 'FRA',
-        },
-        puesto_3: {
-            id: 'GER',
-        },
-        puesto_4: {
-            id: 'POR',
-        },
+        podio: crearPodio('ITA', 'FRA', 'GER', 'POR'),
     },
     {
         id: '2010',
@@ -564,18 +375,7 @@ const resumen_wc = [
         ],
         formato:
             'Fase de grupos, octavos de final, cuartos de final, semifinales y final.',
-        puesto_1: {
-            id: 'ESP',
-        },
-        puesto_2: {
-            id: 'NED',
-        },
-        puesto_3: {
-            id: 'GER',
-        },
-        puesto_4: {
-            id: 'URU',
-        },
+        podio: crearPodio('ESP', 'NED', 'GER', 'URU'),
     },
     {
         id: '2014',
@@ -593,18 +393,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'GER',
-        },
-        puesto_2: {
-            id: 'ARG',
-        },
-        puesto_3: {
-            id: 'NED',
-        },
-        puesto_4: {
-            id: 'BRA',
-        },
+        podio: crearPodio('GER', 'ARG', 'NED', 'BRA'),
     },
     {
         id: '2018',
@@ -622,18 +411,7 @@ const resumen_wc = [
             },
         ],
         formato: '',
-        puesto_1: {
-            id: 'FRA',
-        },
-        puesto_2: {
-            id: 'CRO',
-        },
-        puesto_3: {
-            id: 'BEL',
-        },
-        puesto_4: {
-            id: 'ENG',
-        },
+        podio: crearPodio('FRA', 'CRO', 'BEL', 'ENG'),
     },
     {
         id: '2022',
@@ -649,36 +427,25 @@ const resumen_wc = [
             {
                 grupo: 'A',
                 paises: [
-                    crearEquipo('NED', 7, 3, 2, 1, 0, 5, 1),
-                    crearEquipo('SEN', 6, 3, 2, 0, 1, 5, 4),
-                    crearEquipo('ECU', 4, 3, 1, 1, 1, 4, 3),
-                    crearEquipo('QAT', 0, 3, 0, 0, 3, 1, 7),
+                    crearEquipo('NED', 7, 3, 2, 1, 0, 5, 1, true),
+                    crearEquipo('SEN', 6, 3, 2, 0, 1, 5, 4, true),
+                    crearEquipo('ECU', 4, 3, 1, 1, 1, 4, 3, false),
+                    crearEquipo('QAT', 0, 3, 0, 0, 3, 1, 7, false),
                 ],
             },
             {
                 grupo: 'B',
                 paises: [
-                    crearEquipo('ENG', 7, 3, 2, 1, 0, 9, 2),
-                    crearEquipo('USA', 5, 3, 1, 2, 0, 2, 1),
-                    crearEquipo('IRN', 3, 3, 1, 0, 2, 4, 7),
-                    crearEquipo('WAL', 1, 3, 0, 1, 2, 1, 6),
-                ]
-            }
+                    crearEquipo('ENG', 7, 3, 2, 1, 0, 9, 2, true),
+                    crearEquipo('USA', 5, 3, 1, 2, 0, 2, 1, true),
+                    crearEquipo('IRN', 3, 3, 1, 0, 2, 4, 7, false),
+                    crearEquipo('WAL', 1, 3, 0, 1, 2, 1, 6, false),
+                ],
+            },
         ],
         formato:
             'Fase de grupos, octavos de final, cuartos de final, semifinales y final.',
-        puesto_1: {
-            id: 'ARG',
-        },
-        puesto_2: {
-            id: 'FRA',
-        },
-        puesto_3: {
-            id: 'CRO',
-        },
-        puesto_4: {
-            id: 'MAR',
-        },
+        podio: crearPodio('ARG', 'FRA', 'CRO', 'MAR'),
     },
 ];
 
