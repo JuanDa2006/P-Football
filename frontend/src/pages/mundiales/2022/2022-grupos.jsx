@@ -1,4 +1,4 @@
-import WorldCupGroupsLayout from '../../../layouts/worldCupGroupsLayout';
+import WorldCupGroupsLayout from "../../../layouts/worldCupGroupsLayout";
 
 export default function QAT_2022_G() {
     return (

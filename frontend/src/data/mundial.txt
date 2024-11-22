@@ -1,44 +1,68 @@
-touch src/pages/mundiales/1930/1930-grupos.jsx
-touch src/pages/mundiales/1930/1930-partidos.jsx
-touch src/pages/mundiales/1934/1934-grupos.jsx
-touch src/pages/mundiales/1934/1934-partidos.jsx
-touch src/pages/mundiales/1938/1938-grupos.jsx
-touch src/pages/mundiales/1938/1938-partidos.jsx
-touch src/pages/mundiales/1950/1950-grupos.jsx
-touch src/pages/mundiales/1950/1950-partidos.jsx
-touch src/pages/mundiales/1954/1954-grupos.jsx
-touch src/pages/mundiales/1954/1954-partidos.jsx
-touch src/pages/mundiales/1958/1958-grupos.jsx
-touch src/pages/mundiales/1958/1958-partidos.jsx
-touch src/pages/mundiales/1962/1962-grupos.jsx
-touch src/pages/mundiales/1962/1962-partidos.jsx
-touch src/pages/mundiales/1966/1966-grupos.jsx
-touch src/pages/mundiales/1966/1966-partidos.jsx
-touch src/pages/mundiales/1970/1970-grupos.jsx
-touch src/pages/mundiales/1970/1970-partidos.jsx
-touch src/pages/mundiales/1974/1974-grupos.jsx
-touch src/pages/mundiales/1974/1974-partidos.jsx
-touch src/pages/mundiales/1978/1978-grupos.jsx
-touch src/pages/mundiales/1978/1978-partidos.jsx
-touch src/pages/mundiales/1982/1982-grupos.jsx
-touch src/pages/mundiales/1982/1982-partidos.jsx
-touch src/pages/mundiales/1986/1986-grupos.jsx
-touch src/pages/mundiales/1986/1986-partidos.jsx
-touch src/pages/mundiales/1990/1990-grupos.jsx
-touch src/pages/mundiales/1990/1990-partidos.jsx
-touch src/pages/mundiales/1994/1994-grupos.jsx
-touch src/pages/mundiales/1994/1994-partidos.jsx
-touch src/pages/mundiales/1998/1998-grupos.jsx
-touch src/pages/mundiales/1998/1998-partidos.jsx
-touch src/pages/mundiales/2002/2002-grupos.jsx
-touch src/pages/mundiales/2002/2002-partidos.jsx
-touch src/pages/mundiales/2006/2006-grupos.jsx
-touch src/pages/mundiales/2006/2006-partidos.jsx
-touch src/pages/mundiales/2010/2010-grupos.jsx
-touch src/pages/mundiales/2010/2010-partidos.jsx
-touch src/pages/mundiales/2014/2014-grupos.jsx
-touch src/pages/mundiales/2014/2014-partidos.jsx
-touch src/pages/mundiales/2018/2018-grupos.jsx
-touch src/pages/mundiales/2018/2018-partidos.jsx
-touch src/pages/mundiales/2022/2022-grupos.jsx
-touch src/pages/mundiales/2022/2022-partidos.jsx
+cat src/pages/mundiales/1930/1930-Uruguay.jsx > src/pages/mundiales/1930/1930-grupos.jsx
+cat src/pages/mundiales/1934/1934-Italia.jsx > src/pages/mundiales/1934/1934-grupos.jsx
+cat src/pages/mundiales/1938/1938-Francia.jsx > src/pages/mundiales/1938/1938-grupos.jsx
+cat src/pages/mundiales/1950/1950-Brasil.jsx > src/pages/mundiales/1950/1950-grupos.jsx
+cat src/pages/mundiales/1954/1954-Suiza.jsx > src/pages/mundiales/1954/1954-grupos.jsx
+cat src/pages/mundiales/1958/1958-Suecia.jsx > src/pages/mundiales/1958/1958-grupos.jsx
+cat src/pages/mundiales/1962/1962-Chile.jsx > src/pages/mundiales/1962/1962-grupos.jsx
+cat src/pages/mundiales/1966/1966-Inglaterra.jsx > src/pages/mundiales/1966/1966-grupos.jsx
+cat src/pages/mundiales/1970/1970-México.jsx > src/pages/mundiales/1970/1970-grupos.jsx
+cat src/pages/mundiales/1974/1974-Alemania.jsx > src/pages/mundiales/1974/1974-grupos.jsx
+cat src/pages/mundiales/1978/1978-Argentina.jsx > src/pages/mundiales/1978/1978-grupos.jsx
+cat src/pages/mundiales/1982/1982-España.jsx > src/pages/mundiales/1982/1982-grupos.jsx
+cat src/pages/mundiales/1986/1986-México.jsx > src/pages/mundiales/1986/1986-grupos.jsx
+cat src/pages/mundiales/1990/1990-Italia.jsx > src/pages/mundiales/1990/1990-grupos.jsx
+cat src/pages/mundiales/1994/1994-Estados-Unidos.jsx > src/pages/mundiales/1994/1994-grupos.jsx
+cat src/pages/mundiales/1998/1998-Francia.jsx > src/pages/mundiales/1998/1998-grupos.jsx
+cat src/pages/mundiales/2002/2002-Corea/Japón.jsx > src/pages/mundiales/2002/2002-grupos.jsx
+cat src/pages/mundiales/2006/2006-Alemania.jsx > src/pages/mundiales/2006/2006-grupos.jsx
+cat src/pages/mundiales/2010/2010-Sudafrica.jsx > src/pages/mundiales/2010/2010-grupos.jsx
+cat src/pages/mundiales/2014/2014-Brasil.jsx > src/pages/mundiales/2014/2014-grupos.jsx
+cat src/pages/mundiales/2018/2018-Rusia.jsx > src/pages/mundiales/2018/2018-grupos.jsx
+cat src/pages/mundiales/2022/2022-Catar.jsx > src/pages/mundiales/2022/2022-grupos.jsx
+
+src/pages/mundiales/1930/1930-partidos.jsx
+src/pages/mundiales/1934/1934-partidos.jsx
+src/pages/mundiales/1938/1938-partidos.jsx
+src/pages/mundiales/1950/1950-partidos.jsx
+src/pages/mundiales/1954/1954-partidos.jsx
+src/pages/mundiales/1958/1958-partidos.jsx
+src/pages/mundiales/1962/1962-partidos.jsx
+src/pages/mundiales/1966/1966-partidos.jsx
+src/pages/mundiales/1970/1970-partidos.jsx
+src/pages/mundiales/1974/1974-partidos.jsx
+src/pages/mundiales/1978/1978-partidos.jsx
+src/pages/mundiales/1982/1982-partidos.jsx
+src/pages/mundiales/1986/1986-partidos.jsx
+src/pages/mundiales/1990/1990-partidos.jsx
+src/pages/mundiales/1994/1994-partidos.jsx
+src/pages/mundiales/1998/1998-partidos.jsx
+src/pages/mundiales/2002/2002-partidos.jsx
+src/pages/mundiales/2006/2006-partidos.jsx
+src/pages/mundiales/2010/2010-partidos.jsx
+src/pages/mundiales/2014/2014-partidos.jsx
+src/pages/mundiales/2018/2018-partidos.jsx
+src/pages/mundiales/2022/2022-partidos.jsx
+
+src/pages/mundiales/1930/1930-Uruguay.jsx
+src/pages/mundiales/1934/1934-Italia.jsx
+src/pages/mundiales/1938/1938-Francia.jsx
+src/pages/mundiales/1950/1950-Brasil.jsx
+src/pages/mundiales/1954/1954-Suiza.jsx
+src/pages/mundiales/1958/1958-Suecia.jsx
+src/pages/mundiales/1962/1962-Chile.jsx
+src/pages/mundiales/1966/1966-Inglaterra.jsx
+src/pages/mundiales/1970/1970-México.jsx
+src/pages/mundiales/1974/1974-Alemania.jsx
+src/pages/mundiales/1978/1978-Argentina.jsx
+src/pages/mundiales/1982/1982-España.jsx
+src/pages/mundiales/1986/1986-México.jsx
+src/pages/mundiales/1990/1990-Italia.jsx
+src/pages/mundiales/1994/1994-Estados-Unidos.jsx
+src/pages/mundiales/1998/1998-Francia.jsx
+src/pages/mundiales/2002/2002-Corea/Japón.jsx
+src/pages/mundiales/2006/2006-Alemania.jsx
+src/pages/mundiales/2010/2010-Sudafrica.jsx
+src/pages/mundiales/2014/2014-Brasil.jsx
+src/pages/mundiales/2018/2018-Rusia.jsx
+src/pages/mundiales/2022/2022-Catar.jsx
