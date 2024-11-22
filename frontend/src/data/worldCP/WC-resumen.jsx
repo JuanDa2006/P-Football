@@ -510,19 +510,19 @@ const resumen_wc = [
             {
                 grupo: 'G',
                 paises: [
-                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, true),
-                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, true),
-                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, false),
-                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, false)
+                    crearEquipo('BRA', 6, 3, 2, 0, 1, 3, 1, true),
+                    crearEquipo('SUI', 6, 3, 2, 0, 1, 4, 3, true),
+                    crearEquipo('CMR', 4, 3, 1, 1, 1, 4, 4, false),
+                    crearEquipo('SRB', 1, 3, 0, 1, 2, 5, 8, false)
                 ]
             },
             {
                 grupo: 'H',
                 paises: [
-                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, true),
-                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, true),
-                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, false),
-                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, false)
+                    crearEquipo('POR', 6, 3, 2, 0, 1, 6, 4, true),
+                    crearEquipo('KOR', 4, 3, 1, 1, 1, 4, 4, true),
+                    crearEquipo('URU', 4, 3, 1, 1, 1, 2, 2, false),
+                    crearEquipo('GHA', 3, 3, 1, 0, 2, 5, 7, false)
                 ]
             },
         ],

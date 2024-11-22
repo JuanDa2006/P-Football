@@ -1,6 +1,6 @@
 import resumen_wc from '../../data/worldCP/WC-resumen';
-import { IoCheckmark } from "react-icons/io5";
-import { IoCloseSharp } from "react-icons/io5";
+import { IoCloseCircleSharp } from 'react-icons/io5';
+import { IoCheckmarkCircleSharp } from 'react-icons/io5';
 import CountryName from '../countryName';
 
 export default function ResumenWC({ worldCId, hostId }) {
@@ -41,9 +41,9 @@ export default function ResumenWC({ worldCId, hostId }) {
                         <span className='font-semibold'>
                             Selecciones participantes y grupos:
                         </span>
-                        <ul className='-ml-10 flex flex-col gap-4'>
+                        <ul className='-ml-10 flex justify-between flex-wrap gap-4'>
                             {mundial.selecciones.map((grupos, index) => (
-                                <div key={index} className=''>
+                                <div key={index} className='flex-3'>
                                     <h3>
                                         <span className='font-bold'>
                                             Grupo:{' '}
@@ -54,6 +54,9 @@ export default function ResumenWC({ worldCId, hostId }) {
                                         <table className='min-w-full border-colapse border border-slate-600'>
                                             <thead>
                                                 <tr>
+                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
+                                                        {' '}
+                                                    </th>
                                                     <th className='min-w-48 w-48 text-center border-colapse border border-slate-600'>
                                                         Equipo
                                                     </th>
@@ -81,15 +84,19 @@ export default function ResumenWC({ worldCId, hostId }) {
                                                     <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
                                                         DG
                                                     </th>
-                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
-                                                        Pasa
-                                                    </th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 {grupos.paises.map(
                                                     (equipo, idx) => (
                                                         <tr key={idx}>
+                                                            <td className='pl-2 border-collapse border border-slate-600'>
+                                                                {equipo.pasa ? (
+                                                                    <IoCheckmarkCircleSharp className='text-green-500 ' />
+                                                                ) : (
+                                                                    <IoCloseCircleSharp className='text-red-500 font-black' />
+                                                                )}
+                                                            </td>
                                                             <td className='pl-2 border-collapse border border-slate-600'>
                                                                 <CountryName
                                                                     countryId={
@@ -131,17 +138,19 @@ export default function ResumenWC({ worldCId, hostId }) {
                                                                 }
                                                             </td>
                                                             <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {equipo.diferenciaGoles >= 0 ? (
-                                                                    <span>{equipo.diferenciaGoles}</span>
+                                                                {equipo.diferenciaGoles >=
+                                                                0 ? (
+                                                                    <span>
+                                                                        {
+                                                                            equipo.diferenciaGoles
+                                                                        }
+                                                                    </span>
                                                                 ) : (
-                                                                    <span className='text-red-500'>{equipo.diferenciaGoles}</span>
-                                                                )}
-                                                            </td>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {equipo.pasa ? (
-                                                                    <IoCheckmark className='text-green-500' />
-                                                                ) : (
-                                                                    <IoCloseSharp className='text-red-500 font-black' />
+                                                                    <span className='text-red-500'>
+                                                                        {
+                                                                            equipo.diferenciaGoles
+                                                                        }
+                                                                    </span>
                                                                 )}
                                                             </td>
                                                         </tr>
