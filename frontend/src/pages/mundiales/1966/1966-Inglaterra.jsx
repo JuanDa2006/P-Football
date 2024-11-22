@@ -1,4 +1,4 @@
-import WorldCupLayout from '../../layouts/worldCupLayout';
+import WorldCupLayout from '../../../layouts/worldCupLayout';
 
 export default function ENG_1966() {
     return (
