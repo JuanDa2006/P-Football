@@ -137,9 +137,9 @@ export default function ResumenWC({ worldCId, hostId }) {
                                                             </td>
                                                             <td className='pl-2 border-collapse border border-slate-600'>
                                                                 {equipo.pasa ? (
-                                                                    <IoCheckmark />
+                                                                    <IoCheckmark className='text-green-500' />
                                                                 ) : (
-                                                                    <IoCloseSharp />
+                                                                    <IoCloseSharp className='text-red-500 font-black' />
                                                                 )}
                                                             </td>
                                                         </tr>

@@ -1,8 +1,13 @@
-const P = 'Posición';
-const POR = 'Portero';
-const DEF = 'Defensa';
-const MC = 'Mediocampo';
-const ATC = 'Ataque';
+const crearInfo = (fecha, estadio) => ({
+    fecha,
+    estadio,
+});
+
+const crearGol = (nacion, jugador, minuto) => ({
+    nacion,
+    jugador,
+    minuto,
+});
 
 const analisis_partidos_wc = [
     {
@@ -12,214 +17,48 @@ const analisis_partidos_wc = [
                 partido: 'Partido 1 (Uruguay 1-0 Perú)',
                 resumen:
                     'Rendimiento sólido pero conservador, lograron la victoria sin arriesgar demasiado.',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
-                goleadores: [
-                    { nacion: 'URU', jugador: 'Héctor Castro', minuto: 60 },
-                ],
+                goleadores: [crearGol('URU', 'Héctor Castro', 60)],
             },
             {
                 partido: 'Partido 2 (Uruguay 4-0 Rumania)',
                 resumen:
                     'Incremento en la agresividad ofensiva, gran eficacia en el ataque.',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [
-                    {
-                        nacion: 'URU',
-                        jugador: 'Pablo Dorado',
-                        minuto: 7,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Héctor Scarone',
-                        minuto: 24,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Peregrino Anselmo',
-                        minuto: 30,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Pedro Cea ',
-                        minuto: 35,
-                    },
+                    crearGol('URU', 'Pablo Dorado', 7),
+                    crearGol('URU', 'Héctor Scarone', 24),
+                    crearGol('URU', 'Peregrino Anselmo', 30),
+                    crearGol('URU', 'Pedro Cea ', 35),
                 ],
             },
             {
                 partido: 'Semifinal (Uruguay 6-1 Yugoslavia)',
                 resumen:
                     'Dominio absoluto, tanto en control del juego como en definición.',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [
-                    {
-                        nacion: 'YUG',
-                        jugador: 'Djordje Vujadinović',
-                        minuto: 4,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Pedro Cea',
-                        minuto: 18,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Peregrino Anselmo',
-                        minuto: 20,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Peregrino Anselmo',
-                        minuto: 31,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Santos Iriarte',
-                        minuto: 61,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Pedro Cea',
-                        minuto: 67,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Pedro Cea',
-                        minuto: 72,
-                    },
+                    crearGol('YUG', 'Djordje Vujadinović', 4),
+                    crearGol('URU', 'Pedro Cea', 18),
+                    crearGol('URU', 'Peregrino Anselmo', 20),
+                    crearGol('URU', 'Peregrino Anselmo', 31),
+                    crearGol('URU', 'Santos Iriarte', 61),
+                    crearGol('URU', 'Pedro Cea', 67),
+                    crearGol('URU', 'Pedro Cea', 72),
                 ],
             },
             {
                 partido: 'Final (Uruguay 4-2 Argentina)',
                 resumen:
                     'Superaron una desventaja inicial; gran capacidad de reacción y efectividad en ataque.',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [
-                    {
-                        nacion: 'URU',
-                        jugador: 'Pablo Dorado',
-                        minuto: 12,
-                    },
-                    {
-                        nacion: 'ARG',
-                        jugador: 'Carlos Peucelle',
-                        minuto: 20,
-                    },
-                    {
-                        nacion: 'ARG',
-                        jugador: 'Guillermo Stábile',
-                        minuto: 37,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Pedro Cea',
-                        minuto: 57,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Santos Iriarte',
-                        minuto: 68,
-                    },
-                    {
-                        nacion: 'URU',
-                        jugador: 'Héctor Castro',
-                        minuto: 89,
-                    },
+                    crearGol('URU', 'Pablo Dorado', 12),
+                    crearGol('ARG', 'Carlos Peucelle', 20),
+                    crearGol('ARG', 'Guillermo Stábile', 37),
+                    crearGol('URU', 'Pedro Cea', 57),
+                    crearGol('URU', 'Santos Iriarte', 68),
+                    crearGol('URU', 'Héctor Castro', 89),
                 ],
             },
         ],
@@ -231,30 +70,6 @@ const analisis_partidos_wc = [
                 partido: 'Octavos de final (Italia 7-1 Estados Unidos)',
                 resumen:
                     'Dominio absoluto, mostró gran capacidad ofensiva desde el inicio.',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [
                     {
@@ -303,30 +118,6 @@ const analisis_partidos_wc = [
                 partido: 'Cuartos de final (Italia 1-1 España)',
                 resumen:
                     'Partido muy disputado; la defensa italiana fue clave.',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [
                     {
@@ -344,30 +135,6 @@ const analisis_partidos_wc = [
             {
                 partido: 'Cuartos de final - Desempate (Italia 1-0 España)',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [
                     {
@@ -381,30 +148,6 @@ const analisis_partidos_wc = [
                 partido: 'Semifinal (Italia 1-0 Austria)',
                 resumen:
                     'Victoria ajustada, con un enfoque en defensa y aprovechamiento de una ocasión crucial.',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [
                     {
@@ -418,30 +161,6 @@ const analisis_partidos_wc = [
                 partido: 'Final (Italia 2-1 Checoslovaquia)',
                 resumen:
                     'Remontada en tiempo extra; mostró carácter y resistencia',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [
                     {
@@ -469,30 +188,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -504,30 +199,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -539,30 +210,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -574,30 +221,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -609,30 +232,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -644,30 +243,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -679,30 +254,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -714,30 +265,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -749,30 +276,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -784,30 +287,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -819,30 +298,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -854,30 +309,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -889,30 +320,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -924,30 +331,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -959,30 +342,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -994,30 +353,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -1030,30 +365,6 @@ const analisis_partidos_wc = [
                 partido: 'Grupo (España 0-1 Suiza)',
                 resumen:
                     'Inicio decepcionante, con problemas en la definición y defensa expuesta.',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [
                     {
@@ -1071,30 +382,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -1106,30 +393,6 @@ const analisis_partidos_wc = [
             {
                 partido: '',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
@@ -1141,210 +404,43 @@ const analisis_partidos_wc = [
             {
                 partido: 'Grupo (Argentina 1-2 Arabia Saudita)',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
             {
                 partido: 'Grupo (Argentina 2-0 México)',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
             {
                 partido: 'Grupo (Argentina 2-0 Polonia)',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
             {
                 partido: 'Octavos de final (Argentina 2-1 Australia)',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
             {
-                partido: 'Cuartos de final (Argentina 4-3 Países Bajos, en penales)',
+                partido:
+                    'Cuartos de final (Argentina 4-3 Países Bajos, en penales)',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
             {
                 partido: 'Semifinal (Argentina 3-0 Croacia)',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
             {
                 partido: 'Final (Argentina 3-3 Francia, ganó en penales)',
                 resumen: '',
-                fecha: '',
-                hora: '',
-                alineacion: [
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                    { posicion: P, nombre: '' },
-                ],
-                cambios: [
-                    {
-                        sale: '',
-                        entra: '',
-                        minuto: 0,
-                    },
-                ],
-                tarjetas_amarillas: [{ jugador: '', minuto: 0 }],
-                tarjetas_roja: [{ jugador: '', minuto: 0 }],
 
                 goleadores: [],
             },
