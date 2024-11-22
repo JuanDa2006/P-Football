@@ -21,6 +21,7 @@ const BaseLayout = ({ children, pageName }) => {
                 smooth
                 component={<FaChevronUp />}
                 className='flex items-center justify-center dark:text-white dark:bg-gray-800'
+                top={150}
             />
             <main className='w-screen pb-8'>
                 <div className='px-8 pb-12 mt-12 mx-auto xl:max-w-screen-2xl'>

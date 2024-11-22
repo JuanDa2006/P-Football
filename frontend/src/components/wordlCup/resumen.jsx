@@ -131,9 +131,11 @@ export default function ResumenWC({ worldCId, hostId }) {
                                                                 }
                                                             </td>
                                                             <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {
-                                                                    equipo.diferenciaGoles
-                                                                }
+                                                                {equipo.diferenciaGoles >= 0 ? (
+                                                                    <span>{equipo.diferenciaGoles}</span>
+                                                                ) : (
+                                                                    <span className='text-red-500'>{equipo.diferenciaGoles}</span>
+                                                                )}
                                                             </td>
                                                             <td className='pl-2 border-collapse border border-slate-600'>
                                                                 {equipo.pasa ? (

@@ -40,8 +40,37 @@ const resumen_wc = [
         estadios: '3 (principalmente el Estadio Centenario en Montevideo)',
         selecciones: [
             {
-                grupo: '',
-                paises: [crearEquipo()],
+                grupo: '1',
+                paises: [
+                    crearEquipo('ARG', 6, 3, 3, 0, 0, 10, 4, true),
+                    crearEquipo('CHI', 4, 3, 2, 0, 1, 5, 3, false),
+                    crearEquipo('FRA', 2, 3, 1, 0, 2, 4, 3, false),
+                    crearEquipo('MEX', 0, 3, 0, 0, 3, 4, 13, false),
+                ],
+            },
+            {
+                grupo: '2',
+                paises: [
+                    crearEquipo('YUG', 4, 2, 2, 0, 0, 6, 1, true),
+                    crearEquipo('BRA', 2, 2, 1, 0, 1, 5, 2, false),
+                    crearEquipo('BOL', 0, 2, 0, 0, 2, 0, 8, false),
+                ],
+            },
+            {
+                grupo: '3',
+                paises: [
+                    crearEquipo('URU', 4, 2, 2, 0, 0, 5, 0, true),
+                    crearEquipo('ROU', 2, 2, 1, 1, 1, 3, 5, false),
+                    crearEquipo('PER', 0, 2, 0, 2, 2, 1, 4, false),
+                ],
+            },
+            {
+                grupo: '4,',
+                paises: [
+                    crearEquipo('USA', 4, 2, 2, 0, 0, 6, 0, true),
+                    crearEquipo('PAR', 2, 2, 1, 0, 1, 1, 3, false),
+                    crearEquipo('BEL', 0, 2, 0, 0, 2, 0, 4, false),
+                ],
             },
         ],
         formato: 'Fase de grupos y luego eliminación directa',
@@ -441,6 +470,60 @@ const resumen_wc = [
                     crearEquipo('IRN', 3, 3, 1, 0, 2, 4, 7, false),
                     crearEquipo('WAL', 1, 3, 0, 1, 2, 1, 6, false),
                 ],
+            },
+            {
+                grupo: 'C',
+                paises: [
+                    crearEquipo('ARG', 6, 3, 2, 0, 1, 5, 2, true),
+                    crearEquipo('POL', 4, 3, 1, 1, 1, 2, 2, true),
+                    crearEquipo('MEX', 4, 3, 1, 1, 1, 2, 3, false),
+                    crearEquipo('KSA', 3, 3, 1, 0, 2, 3, 5, false)
+                ]
+            },
+            {
+                grupo: 'D',
+                paises: [
+                    crearEquipo('FRA', 6, 3, 2, 0, 1, 6, 3, true),
+                    crearEquipo('AUS', 6, 3, 2, 0, 1, 3, 4, true),
+                    crearEquipo('TUN', 4, 3, 1, 1, 1, 1, 1, false),
+                    crearEquipo('DEN', 1, 3, 0, 1, 2, 1, 3, false)
+                ]
+            },
+            {
+                grupo: 'E',
+                paises: [
+                    crearEquipo('JPN', 6, 3, 2, 0, 1, 4, 3, true),
+                    crearEquipo('ESP', 4, 3, 1, 1, 1, 9, 3, true),
+                    crearEquipo('GER', 4, 3, 1, 1, 1, 6, 5, false),
+                    crearEquipo('CRC', 3, 3, 1, 0, 2, 3, 11, false)
+                ]
+            },
+            {
+                grupo: 'F',
+                paises: [
+                    crearEquipo('MAR', 7, 3, 2, 1, 0, 4, 1, true),
+                    crearEquipo('CRO', 5, 3, 1, 2, 0, 4, 1, true),
+                    crearEquipo('BEL', 4, 3, 1, 1, 1, 1, 2, false),
+                    crearEquipo('CAN', 0, 3, 0, 0, 3, 2, 7, false)
+                ]
+            },
+            {
+                grupo: 'G',
+                paises: [
+                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, true),
+                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, true),
+                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, false),
+                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, false)
+                ]
+            },
+            {
+                grupo: 'H',
+                paises: [
+                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, true),
+                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, true),
+                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, false),
+                    crearEquipo('', 0, 0, 0, 0, 0, 0, 0, false)
+                ]
             },
         ],
         formato:
