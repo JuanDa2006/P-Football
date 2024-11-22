@@ -5,7 +5,7 @@ const crearPodio = (puesto_1, puesto_2, puesto_3, puesto_4) => ({
     puesto_4,
 });
 
-const crearEquipo = (
+const crearSeleccion = (
     nombre,
     puntos,
     partidosJugados,
@@ -43,34 +43,34 @@ const resumen_wc = [
             {
                 grupo: '1',
                 paises: [
-                    crearEquipo('ARG', 6, 3, 3, 0, 0, 10, 4, true),
-                    crearEquipo('CHI', 4, 3, 2, 0, 1, 5, 3),
-                    crearEquipo('FRA', 2, 3, 1, 0, 2, 4, 3),
-                    crearEquipo('MEX', 0, 3, 0, 0, 3, 4, 13),
+                    crearSeleccion('ARG', 6, 3, 3, 0, 0, 10, 4, true),
+                    crearSeleccion('CHI', 4, 3, 2, 0, 1, 5, 3),
+                    crearSeleccion('FRA', 2, 3, 1, 0, 2, 4, 3),
+                    crearSeleccion('MEX', 0, 3, 0, 0, 3, 4, 13),
                 ],
             },
             {
                 grupo: '2',
                 paises: [
-                    crearEquipo('YUG', 4, 2, 2, 0, 0, 6, 1, true),
-                    crearEquipo('BRA', 2, 2, 1, 0, 1, 5, 2),
-                    crearEquipo('BOL', 0, 2, 0, 0, 2, 0, 8),
+                    crearSeleccion('YUG', 4, 2, 2, 0, 0, 6, 1, true),
+                    crearSeleccion('BRA', 2, 2, 1, 0, 1, 5, 2),
+                    crearSeleccion('BOL', 0, 2, 0, 0, 2, 0, 8),
                 ],
             },
             {
                 grupo: '3',
                 paises: [
-                    crearEquipo('URU', 4, 2, 2, 0, 0, 5, 0, true),
-                    crearEquipo('ROU', 2, 2, 1, 1, 1, 3, 5),
-                    crearEquipo('PER', 0, 2, 0, 2, 2, 1, 4),
+                    crearSeleccion('URU', 4, 2, 2, 0, 0, 5, 0, true),
+                    crearSeleccion('ROU', 2, 2, 1, 1, 1, 3, 5),
+                    crearSeleccion('PER', 0, 2, 0, 2, 2, 1, 4),
                 ],
             },
             {
                 grupo: '4,',
                 paises: [
-                    crearEquipo('USA', 4, 2, 2, 0, 0, 6, 0, true),
-                    crearEquipo('PAR', 2, 2, 1, 0, 1, 1, 3),
-                    crearEquipo('BEL', 0, 2, 0, 0, 2, 0, 4),
+                    crearSeleccion('USA', 4, 2, 2, 0, 0, 6, 0, true),
+                    crearSeleccion('PAR', 2, 2, 1, 0, 1, 1, 3),
+                    crearSeleccion('BEL', 0, 2, 0, 0, 2, 0, 4),
                 ],
             },
         ],
@@ -91,7 +91,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: 'Eliminación directa desde octavos de final',
@@ -110,7 +110,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: 'Eliminación directa desde octavos de final',
@@ -129,7 +129,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -148,7 +148,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -167,7 +167,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -186,7 +186,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -205,7 +205,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -224,7 +224,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -243,7 +243,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -262,7 +262,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -281,7 +281,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -300,7 +300,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -319,7 +319,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -338,7 +338,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -357,7 +357,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -379,7 +379,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -398,7 +398,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -418,7 +418,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato:
@@ -438,7 +438,7 @@ const resumen_wc = [
         selecciones: [
             {
                 grupo: '',
-                paises: [crearEquipo()],
+                paises: [crearSeleccion()],
             },
         ],
         formato: '',
@@ -458,73 +458,73 @@ const resumen_wc = [
             {
                 grupo: 'A',
                 paises: [
-                    crearEquipo('URU', 9, 3, 3, 0, 0, 5, 0, true),
-                    crearEquipo('RUS', 6, 3, 2, 0, 1, 8, 4, true),
-                    crearEquipo('RSA', 3, 3, 1, 0, 2, 2, 7),
-                    crearEquipo('EGY', 0, 3, 0, 0, 3, 2, 6),
+                    crearSeleccion('URU', 9, 3, 3, 0, 0, 5, 0, true),
+                    crearSeleccion('RUS', 6, 3, 2, 0, 1, 8, 4, true),
+                    crearSeleccion('RSA', 3, 3, 1, 0, 2, 2, 7),
+                    crearSeleccion('EGY', 0, 3, 0, 0, 3, 2, 6),
                 ],
             },
             {
                 grupo: 'B',
                 paises: [
-                    crearEquipo('ESP', 5, 3, 1, 2, 0, 6, 5, true),
-                    crearEquipo('POR', 5, 3, 1, 2, 0, 5, 4, true),
-                    crearEquipo('IRN', 4, 3, 1, 1, 1, 2, 2),
-                    crearEquipo('MAR', 1, 3, 0, 1, 2, 2, 4),
+                    crearSeleccion('ESP', 5, 3, 1, 2, 0, 6, 5, true),
+                    crearSeleccion('POR', 5, 3, 1, 2, 0, 5, 4, true),
+                    crearSeleccion('IRN', 4, 3, 1, 1, 1, 2, 2),
+                    crearSeleccion('MAR', 1, 3, 0, 1, 2, 2, 4),
                 ],
             },
             {
                 grupo: 'C',
                 paises: [
-                    crearEquipo('FRA', 7, 3, 2, 1, 0, 3, 1, true),
-                    crearEquipo('DEN', 5, 3, 1, 2, 0, 2, 1, true),
-                    crearEquipo('PER', 3, 3, 1, 0, 2, 2, 2),
-                    crearEquipo('AUS', 1, 3, 0, 1, 2, 2, 5),
+                    crearSeleccion('FRA', 7, 3, 2, 1, 0, 3, 1, true),
+                    crearSeleccion('DEN', 5, 3, 1, 2, 0, 2, 1, true),
+                    crearSeleccion('PER', 3, 3, 1, 0, 2, 2, 2),
+                    crearSeleccion('AUS', 1, 3, 0, 1, 2, 2, 5),
                 ],
             },
             {
                 grupo: 'D',
                 paises: [
-                    crearEquipo('CRO', 9, 3, 3, 0, 0, 7, 1, true),
-                    crearEquipo('ARG', 4, 3, 1, 1, 1, 3, 5, true),
-                    crearEquipo('NGA', 3, 3, 1, 0, 2, 3, 4),
-                    crearEquipo('ISL', 1, 3, 0, 1, 2, 2, 5),
+                    crearSeleccion('CRO', 9, 3, 3, 0, 0, 7, 1, true),
+                    crearSeleccion('ARG', 4, 3, 1, 1, 1, 3, 5, true),
+                    crearSeleccion('NGA', 3, 3, 1, 0, 2, 3, 4),
+                    crearSeleccion('ISL', 1, 3, 0, 1, 2, 2, 5),
                 ],
             },
             {
                 grupo: 'E',
                 paises: [
-                    crearEquipo('BRA', 7, 3, 2, 1, 0, 5, 1, true),
-                    crearEquipo('SUI', 5, 3, 1, 2, 0, 5, 4, true),
-                    crearEquipo('SRB', 3, 3, 1, 0, 2, 2, 4),
-                    crearEquipo('CRC', 1, 3, 0, 1, 2, 2, 5),
+                    crearSeleccion('BRA', 7, 3, 2, 1, 0, 5, 1, true),
+                    crearSeleccion('SUI', 5, 3, 1, 2, 0, 5, 4, true),
+                    crearSeleccion('SRB', 3, 3, 1, 0, 2, 2, 4),
+                    crearSeleccion('CRC', 1, 3, 0, 1, 2, 2, 5),
                 ],
             },
             {
                 grupo: 'F',
                 paises: [
-                    crearEquipo('SWE', 6, 3, 2, 0, 1, 5, 2, true),
-                    crearEquipo('MEX', 6, 3, 2, 0, 1, 3, 4, true),
-                    crearEquipo('KOR', 3, 3, 1, 0, 2, 3, 3),
-                    crearEquipo('GER', 3, 3, 1, 0, 2, 2, 4),
+                    crearSeleccion('SWE', 6, 3, 2, 0, 1, 5, 2, true),
+                    crearSeleccion('MEX', 6, 3, 2, 0, 1, 3, 4, true),
+                    crearSeleccion('KOR', 3, 3, 1, 0, 2, 3, 3),
+                    crearSeleccion('GER', 3, 3, 1, 0, 2, 2, 4),
                 ],
             },
             {
                 grupo: 'G',
                 paises: [
-                    crearEquipo('BEL', 9, 3, 3, 0, 0, 9, 2, true),
-                    crearEquipo('ENG', 6, 3, 2, 0, 1, 8, 3, true),
-                    crearEquipo('TUN', 3, 3, 1, 0, 2, 5, 8),
-                    crearEquipo('PAN', 0, 3, 0, 0, 3, 2, 11),
+                    crearSeleccion('BEL', 9, 3, 3, 0, 0, 9, 2, true),
+                    crearSeleccion('ENG', 6, 3, 2, 0, 1, 8, 3, true),
+                    crearSeleccion('TUN', 3, 3, 1, 0, 2, 5, 8),
+                    crearSeleccion('PAN', 0, 3, 0, 0, 3, 2, 11),
                 ],
             },
             {
                 grupo: 'H',
                 paises: [
-                    crearEquipo('COL', 6, 3, 2, 0, 1, 5, 2, true),
-                    crearEquipo('JPN', 4, 3, 1, 1, 1, 4, 4, true),
-                    crearEquipo('SEN', 4, 3, 1, 1, 1, 4, 4),
-                    crearEquipo('POL', 3, 3, 1, 0, 2, 2, 5),
+                    crearSeleccion('COL', 6, 3, 2, 0, 1, 5, 2, true),
+                    crearSeleccion('JPN', 4, 3, 1, 1, 1, 4, 4, true),
+                    crearSeleccion('SEN', 4, 3, 1, 1, 1, 4, 4),
+                    crearSeleccion('POL', 3, 3, 1, 0, 2, 2, 5),
                 ],
             },
         ],
@@ -546,73 +546,73 @@ const resumen_wc = [
             {
                 grupo: 'A',
                 paises: [
-                    crearEquipo('NED', 7, 3, 2, 1, 0, 5, 1, true),
-                    crearEquipo('SEN', 6, 3, 2, 0, 1, 5, 4, true),
-                    crearEquipo('ECU', 4, 3, 1, 1, 1, 4, 3),
-                    crearEquipo('QAT', 0, 3, 0, 0, 3, 1, 7),
+                    crearSeleccion('NED', 7, 3, 2, 1, 0, 5, 1, true),
+                    crearSeleccion('SEN', 6, 3, 2, 0, 1, 5, 4, true),
+                    crearSeleccion('ECU', 4, 3, 1, 1, 1, 4, 3),
+                    crearSeleccion('QAT', 0, 3, 0, 0, 3, 1, 7),
                 ],
             },
             {
                 grupo: 'B',
                 paises: [
-                    crearEquipo('ENG', 7, 3, 2, 1, 0, 9, 2, true),
-                    crearEquipo('USA', 5, 3, 1, 2, 0, 2, 1, true),
-                    crearEquipo('IRN', 3, 3, 1, 0, 2, 4, 7),
-                    crearEquipo('WAL', 1, 3, 0, 1, 2, 1, 6),
+                    crearSeleccion('ENG', 7, 3, 2, 1, 0, 9, 2, true),
+                    crearSeleccion('USA', 5, 3, 1, 2, 0, 2, 1, true),
+                    crearSeleccion('IRN', 3, 3, 1, 0, 2, 4, 7),
+                    crearSeleccion('WAL', 1, 3, 0, 1, 2, 1, 6),
                 ],
             },
             {
                 grupo: 'C',
                 paises: [
-                    crearEquipo('ARG', 6, 3, 2, 0, 1, 5, 2, true),
-                    crearEquipo('POL', 4, 3, 1, 1, 1, 2, 2, true),
-                    crearEquipo('MEX', 4, 3, 1, 1, 1, 2, 3),
-                    crearEquipo('KSA', 3, 3, 1, 0, 2, 3, 5),
+                    crearSeleccion('ARG', 6, 3, 2, 0, 1, 5, 2, true),
+                    crearSeleccion('POL', 4, 3, 1, 1, 1, 2, 2, true),
+                    crearSeleccion('MEX', 4, 3, 1, 1, 1, 2, 3),
+                    crearSeleccion('KSA', 3, 3, 1, 0, 2, 3, 5),
                 ],
             },
             {
                 grupo: 'D',
                 paises: [
-                    crearEquipo('FRA', 6, 3, 2, 0, 1, 6, 3, true),
-                    crearEquipo('AUS', 6, 3, 2, 0, 1, 3, 4, true),
-                    crearEquipo('TUN', 4, 3, 1, 1, 1, 1, 1),
-                    crearEquipo('DEN', 1, 3, 0, 1, 2, 1, 3),
+                    crearSeleccion('FRA', 6, 3, 2, 0, 1, 6, 3, true),
+                    crearSeleccion('AUS', 6, 3, 2, 0, 1, 3, 4, true),
+                    crearSeleccion('TUN', 4, 3, 1, 1, 1, 1, 1),
+                    crearSeleccion('DEN', 1, 3, 0, 1, 2, 1, 3),
                 ],
             },
             {
                 grupo: 'E',
                 paises: [
-                    crearEquipo('JPN', 6, 3, 2, 0, 1, 4, 3, true),
-                    crearEquipo('ESP', 4, 3, 1, 1, 1, 9, 3, true),
-                    crearEquipo('GER', 4, 3, 1, 1, 1, 6, 5),
-                    crearEquipo('CRC', 3, 3, 1, 0, 2, 3, 11),
+                    crearSeleccion('JPN', 6, 3, 2, 0, 1, 4, 3, true),
+                    crearSeleccion('ESP', 4, 3, 1, 1, 1, 9, 3, true),
+                    crearSeleccion('GER', 4, 3, 1, 1, 1, 6, 5),
+                    crearSeleccion('CRC', 3, 3, 1, 0, 2, 3, 11),
                 ],
             },
             {
                 grupo: 'F',
                 paises: [
-                    crearEquipo('MAR', 7, 3, 2, 1, 0, 4, 1, true),
-                    crearEquipo('CRO', 5, 3, 1, 2, 0, 4, 1, true),
-                    crearEquipo('BEL', 4, 3, 1, 1, 1, 1, 2),
-                    crearEquipo('CAN', 0, 3, 0, 0, 3, 2, 7),
+                    crearSeleccion('MAR', 7, 3, 2, 1, 0, 4, 1, true),
+                    crearSeleccion('CRO', 5, 3, 1, 2, 0, 4, 1, true),
+                    crearSeleccion('BEL', 4, 3, 1, 1, 1, 1, 2),
+                    crearSeleccion('CAN', 0, 3, 0, 0, 3, 2, 7),
                 ],
             },
             {
                 grupo: 'G',
                 paises: [
-                    crearEquipo('BRA', 6, 3, 2, 0, 1, 3, 1, true),
-                    crearEquipo('SUI', 6, 3, 2, 0, 1, 4, 3, true),
-                    crearEquipo('CMR', 4, 3, 1, 1, 1, 4, 4),
-                    crearEquipo('SRB', 1, 3, 0, 1, 2, 5, 8),
+                    crearSeleccion('BRA', 6, 3, 2, 0, 1, 3, 1, true),
+                    crearSeleccion('SUI', 6, 3, 2, 0, 1, 4, 3, true),
+                    crearSeleccion('CMR', 4, 3, 1, 1, 1, 4, 4),
+                    crearSeleccion('SRB', 1, 3, 0, 1, 2, 5, 8),
                 ],
             },
             {
                 grupo: 'H',
                 paises: [
-                    crearEquipo('POR', 6, 3, 2, 0, 1, 6, 4, true),
-                    crearEquipo('KOR', 4, 3, 1, 1, 1, 4, 4, true),
-                    crearEquipo('URU', 4, 3, 1, 1, 1, 2, 2),
-                    crearEquipo('GHA', 3, 3, 1, 0, 2, 5, 7),
+                    crearSeleccion('POR', 6, 3, 2, 0, 1, 6, 4, true),
+                    crearSeleccion('KOR', 4, 3, 1, 1, 1, 4, 4, true),
+                    crearSeleccion('URU', 4, 3, 1, 1, 1, 2, 2),
+                    crearSeleccion('GHA', 3, 3, 1, 0, 2, 5, 7),
                 ],
             },
         ],
