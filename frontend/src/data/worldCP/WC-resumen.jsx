@@ -38,6 +38,7 @@ const resumen_wc = [
         ],
         fechas: '13 al 30 de julio de 1930',
         estadios: '3 (principalmente el Estadio Centenario en Montevideo)',
+        grupos: '/mundiales/1930/grupos',
         selecciones: [
             {
                 grupo: '1',
@@ -86,7 +87,8 @@ const resumen_wc = [
         fechas: '27 de mayo al 10 de junio de 1934',
         estadios:
             '8 sedes en distintas ciudades (incluyendo Roma, Milán y Nápoles)',
-        selecciones: [
+        grupos: '/mundiales/1934/grupos',
+            selecciones: [
             {
                 grupo: '',
                 paises: [crearEquipo()],
@@ -104,6 +106,7 @@ const resumen_wc = [
         ],
         fechas: '4 al 19 de junio de 1938',
         estadios: '10 sedes en varias ciudades, como París, Marsella y Burdeos',
+        grupos: '/mundiales/1938/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -122,6 +125,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1950/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -140,6 +144,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1954/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -158,6 +163,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1958/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -176,6 +182,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1962/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -194,6 +201,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1966/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -212,6 +220,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1970/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -230,6 +239,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1974/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -248,6 +258,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1978/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -266,6 +277,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1982/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -284,6 +296,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1986/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -302,6 +315,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1990/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -320,6 +334,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1994/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -338,6 +353,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/1998/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -359,6 +375,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/2002/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -377,6 +394,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/2006/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -396,7 +414,8 @@ const resumen_wc = [
         fechas: '11 de junio al 11 de julio de 2010',
         estadios:
             '10 sedes en ciudades como Johannesburgo, Ciudad del Cabo, Durban y Pretoria',
-        selecciones: [
+        grupos: '/mundiales/2010/grupos',
+            selecciones: [
             {
                 grupo: '',
                 paises: [crearEquipo()],
@@ -415,6 +434,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/2014/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -433,6 +453,7 @@ const resumen_wc = [
         ],
         fechas: '',
         estadios: '',
+        grupos: '/mundiales/2018/grupos',
         selecciones: [
             {
                 grupo: '',
@@ -452,7 +473,8 @@ const resumen_wc = [
         fechas: '20 de noviembre al 18 de diciembre de 2022',
         estadios:
             '8 sedes en ciudades como Doha, Al Rayyan, Al Wakrah y Lusail',
-        selecciones: [
+        grupos: '/mundiales/2022/grupos',
+            selecciones: [
             {
                 grupo: 'A',
                 paises: [

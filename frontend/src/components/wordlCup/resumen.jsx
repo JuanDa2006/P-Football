@@ -2,8 +2,9 @@ import resumen_wc from '../../data/worldCP/WC-resumen';
 import { IoCloseCircleSharp } from 'react-icons/io5';
 import { IoCheckmarkCircleSharp } from 'react-icons/io5';
 import CountryName from '../countryName';
+import { Link } from 'react-router-dom';
 
-export default function ResumenWC({ worldCId, hostId }) {
+export default function ResumenWC({ worldCId }) {
     const mundial = resumen_wc.find((c) => c.id === worldCId);
 
     return (
@@ -38,130 +39,9 @@ export default function ResumenWC({ worldCId, hostId }) {
                 </li>
                 <li>
                     <p>
-                        <span className='font-semibold'>
-                            Selecciones participantes y grupos:
-                        </span>
-                        <ul className='-ml-10 flex justify-between flex-wrap gap-4'>
-                            {mundial.selecciones.map((grupos, index) => (
-                                <div key={index} className='flex-3'>
-                                    <h3>
-                                        <span className='font-bold'>
-                                            Grupo:{' '}
-                                        </span>
-                                        {grupos.grupo}
-                                    </h3>
-                                    <div className='overflow-x-auto'>
-                                        <table className='min-w-full border-colapse border border-slate-600'>
-                                            <thead>
-                                                <tr>
-                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
-                                                        {' '}
-                                                    </th>
-                                                    <th className='min-w-48 w-48 text-center border-colapse border border-slate-600'>
-                                                        Equipo
-                                                    </th>
-                                                    <th className='min-w-20 w-20 text-center border-colapse border border-slate-600'>
-                                                        Puntos
-                                                    </th>
-                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
-                                                        PJ
-                                                    </th>
-                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
-                                                        PG
-                                                    </th>
-                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
-                                                        PE
-                                                    </th>
-                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
-                                                        PP
-                                                    </th>
-                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
-                                                        GF
-                                                    </th>
-                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
-                                                        GC
-                                                    </th>
-                                                    <th className='min-w-8 w-8 text-center border-colapse border border-slate-600'>
-                                                        DG
-                                                    </th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                {grupos.paises.map(
-                                                    (equipo, idx) => (
-                                                        <tr key={idx}>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {equipo.pasa ? (
-                                                                    <IoCheckmarkCircleSharp className='text-green-500 ' />
-                                                                ) : (
-                                                                    <IoCloseCircleSharp className='text-red-500 font-black' />
-                                                                )}
-                                                            </td>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                <CountryName
-                                                                    countryId={
-                                                                        equipo.nombre
-                                                                    }
-                                                                />
-                                                            </td>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {equipo.puntos}
-                                                            </td>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {
-                                                                    equipo.partidosJugados
-                                                                }
-                                                            </td>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {
-                                                                    equipo.partidosGanados
-                                                                }
-                                                            </td>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {
-                                                                    equipo.partidosEmpatados
-                                                                }
-                                                            </td>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {
-                                                                    equipo.partidosPerdidos
-                                                                }
-                                                            </td>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {
-                                                                    equipo.golesFavor
-                                                                }
-                                                            </td>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {
-                                                                    equipo.golesContra
-                                                                }
-                                                            </td>
-                                                            <td className='pl-2 border-collapse border border-slate-600'>
-                                                                {equipo.diferenciaGoles >=
-                                                                0 ? (
-                                                                    <span>
-                                                                        {
-                                                                            equipo.diferenciaGoles
-                                                                        }
-                                                                    </span>
-                                                                ) : (
-                                                                    <span className='text-red-500'>
-                                                                        {
-                                                                            equipo.diferenciaGoles
-                                                                        }
-                                                                    </span>
-                                                                )}
-                                                            </td>
-                                                        </tr>
-                                                    )
-                                                )}
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            ))}
-                        </ul>
+                        <Link to={mundial.grupos} className='font-semibold hover:underline'>
+                            Selecciones participantes y grupos (click):
+                        </Link>
                     </p>
                 </li>
                 <li>
