@@ -974,7 +974,7 @@ const countries = [
     { 
         id: 'PRK',
         src: PRK,
-        name: 'República Popular Democrática de Corea',
+        name: 'Corea del norte',
     },
     { 
         id: 'PUR',
