@@ -72,7 +72,7 @@ const GER_2006_G = lazy(() => import('../pages/mundiales/2006/2006-grupos'));
 
 const SUD_2010 = lazy(() => import('../pages/mundiales/2010/2010-Sudafrica'));
 const SUD_2010_G = lazy(() => import('../pages/mundiales/2010/2010-grupos'));
-
+const SUD_2010_P = lazy(() => import('../pages/mundiales/2010/2010-partidos'));
 const BRA_2014 = lazy(() => import('../pages/mundiales/2014/2014-Brasil'));
 const BRA_2014_G = lazy(() => import('../pages/mundiales/2014/2014-grupos'));
 
@@ -131,6 +131,7 @@ function RoutesConfig() {
         { path: '/mundiales/2006/grupos', element: <GER_2006_G /> },
         { path: '/mundiales/2010', element: <SUD_2010 /> },
         { path: '/mundiales/2010/grupos', element: <SUD_2010_G /> },
+        { path: '/mundiales/2010/partidos', element: <SUD_2010_P /> },
         { path: '/mundiales/2014', element: <BRA_2014 /> },
         { path: '/mundiales/2014/grupos', element: <BRA_2014_G /> },
         { path: '/mundiales/2018', element: <RUS_2018 /> },
