@@ -2,12 +2,14 @@ import countries from '../../data/countries';
 import { IoMdStar } from 'react-icons/io';
 import { MdOutlineStadium } from 'react-icons/md';
 import { BsCalendar3 } from 'react-icons/bs';
+import CountryFlagSmall from '../countryFlagSmall';
 
 const SelMatch = ({
     partido,
     fase,
     mejor_jugador,
     puntuacion,
+    nacion,
     estadio,
     fecha,
     seleccion_1,
@@ -20,13 +22,13 @@ const SelMatch = ({
     const sel_2 = countries.find((c) => c.id === seleccion_2);
 
     const getColorClass = (puntuacion) => {
-        if (puntuacion >= 7) return 'bg-green-400';
+        if (puntuacion >= 8) return 'bg-green-400';
         if (puntuacion >= 5) return 'bg-yellow-300';
         return 'bg-red-500';
     };
 
     return (
-        <div className='max-w-96 w-96 sm:w-full lg:w-max flex flex-wrap justify-between gap-4 dark:text-white mb-8'>
+        <div className='max-w-80 w-80 md:w-96 md:max-w-96 flex flex-wrap justify-between gap-4 dark:text-white mb-8'>
             <div className='w-full'>
                 <h1 className='font-bold text-2xl uppercase'>{partido}</h1>
                 <h1>{fase}</h1>
@@ -38,7 +40,7 @@ const SelMatch = ({
                 </p>
                 <div className='flex w-16 justify-between items-center'>
                     <div
-                        className={`flex  justify-between items-center gap-2 text-white py-1 px-3 rounded-lg ${getColorClass(
+                        className={`flex justify-between items-center gap-2 text-white py-1 px-3 rounded-lg ${getColorClass(
                             puntuacion
                         )}`}
                     >
@@ -46,16 +48,19 @@ const SelMatch = ({
                         <IoMdStar />
                     </div>
                 </div>
+                <div className='mt-4 ml-2'>
+                    <CountryFlagSmall countryId={nacion} />
+                </div>
             </div>
-            <div className='flex justify-between items-center w-full flex-wrap'>
-                <div className='w-5/12 flex items-center justify-start gap-2'>
+            <div className='flex justify-between items-center w-full flex-nowrap'>
+                <div className='w-1/2 flex items-center justify-start gap-2'>
                     <MdOutlineStadium />
                     <p>{estadio}</p>
                 </div>
                 <div>
                     <p>|</p>
                 </div>
-                <div className='w-5/12 flex items-center justify-end gap-2'>
+                <div className='w-1/2 flex items-center justify-end gap-2'>
                     <p>{fecha}</p>
                     <BsCalendar3 />
                 </div>

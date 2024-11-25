@@ -1,9 +1,6 @@
-import crearGol from "../../services/crearGol";
-
-const crearInfo = (fecha, estadio) => ({
-    fecha,
-    estadio,
-});
+import crearGol from '../../services/crearGol';
+import crearTarjetaAmarilla from '../../services/crearTarjetaAmarilla';
+import crearTarjetaRoja from '../../services/crearTarjetaRoja';
 
 const analisis_partidos_wc = [
     {
@@ -17,13 +14,14 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: 'Partido 1 (Uruguay 1-0 Perú)',
                 resumen:
                     'Rendimiento sólido pero conservador, lograron la victoria sin arriesgar demasiado.',
 
-                goleadores: [crearGol('URU', 'Héctor Castro', 60)],
+                eventos: [crearGol('URU', 'Héctor Castro', 60)],
             },
             {
                 id: '',
@@ -33,13 +31,14 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: 'Partido 2 (Uruguay 4-0 Rumania)',
                 resumen:
                     'Incremento en la agresividad ofensiva, gran eficacia en el ataque.',
 
-                goleadores: [
+                eventos: [
                     crearGol('URU', 'Pablo Dorado', 7),
                     crearGol('URU', 'Héctor Scarone', 24),
                     crearGol('URU', 'Peregrino Anselmo', 30),
@@ -54,13 +53,14 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: 'Semifinal (Uruguay 6-1 Yugoslavia)',
                 resumen:
                     'Dominio absoluto, tanto en control del juego como en definición.',
 
-                goleadores: [
+                eventos: [
                     crearGol('YUG', 'Djordje Vujadinović', 4),
                     crearGol('URU', 'Pedro Cea', 18),
                     crearGol('URU', 'Peregrino Anselmo', 20),
@@ -78,13 +78,14 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: 'Final (Uruguay 4-2 Argentina)',
                 resumen:
                     'Superaron una desventaja inicial; gran capacidad de reacción y efectividad en ataque.',
 
-                goleadores: [
+                eventos: [
                     crearGol('URU', 'Pablo Dorado', 12),
                     crearGol('ARG', 'Carlos Peucelle', 20),
                     crearGol('ARG', 'Guillermo Stábile', 37),
@@ -106,13 +107,14 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: 'Octavos de final (Italia 7-1 Estados Unidos)',
                 resumen:
                     'Dominio absoluto, mostró gran capacidad ofensiva desde el inicio.',
 
-                goleadores: [
+                eventos: [
                     {
                         nacion: 'ITA',
                         jugador: 'Angelo Schiavio',
@@ -163,13 +165,14 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: 'Cuartos de final (Italia 1-1 España)',
                 resumen:
                     'Partido muy disputado; la defensa italiana fue clave.',
 
-                goleadores: [
+                eventos: [
                     {
                         nacion: 'ESP',
                         jugador: 'Luis Pagola',
@@ -190,12 +193,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: 'Cuartos de final - Desempate (Italia 1-0 España)',
                 resumen: '',
 
-                goleadores: [
+                eventos: [
                     {
                         nacion: 'ITA',
                         jugador: 'Giuseppe Meazza',
@@ -211,13 +215,14 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: 'Semifinal (Italia 1-0 Austria)',
                 resumen:
                     'Victoria ajustada, con un enfoque en defensa y aprovechamiento de una ocasión crucial.',
 
-                goleadores: [
+                eventos: [
                     {
                         nacion: 'ITA',
                         jugador: 'Enrique Guaita',
@@ -233,13 +238,14 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: 'Final (Italia 2-1 Checoslovaquia)',
                 resumen:
                     'Remontada en tiempo extra; mostró carácter y resistencia',
 
-                goleadores: [
+                eventos: [
                     {
                         nacion: 'CZE',
                         jugador: 'Antonín Puč',
@@ -270,12 +276,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -290,12 +297,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -310,12 +318,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -330,12 +339,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -350,12 +360,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -370,12 +381,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -390,12 +402,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -410,12 +423,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -430,12 +444,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -450,12 +465,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -470,12 +486,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -490,12 +507,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -510,12 +528,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -530,12 +549,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -550,12 +570,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -570,12 +591,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -590,13 +612,14 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: 'Grupo (España 0-1 Suiza)',
                 resumen:
                     'Inicio decepcionante, con problemas en la definición y defensa expuesta.',
 
-                goleadores: [
+                eventos: [
                     {
                         nacion: 'SUI',
                         jugador: 'Gélson Fernandes',
@@ -617,12 +640,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -637,12 +661,13 @@ const analisis_partidos_wc = [
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
+                nacion: '',
                 estadio: '',
                 fecha: '',
                 partido: '',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
@@ -652,110 +677,133 @@ const analisis_partidos_wc = [
             {
                 id: 0,
                 sel_1: 'ARG',
-                sel_1_scroe: 0,
+                sel_1_scroe: 1,
                 sel_2: 'KSA',
-                sel_2_scrore: 0,
-                mejor_jugador: '',
-                puntuacion: 0,
-                estadio: '',
-                fecha: '',
+                sel_2_scrore: 2,
+                mejor_jugador: 'Mohammed Al-Owais',
+                puntuacion: 7.1,
+                nacion: 'KSA',
+                estadio: 'Lusail Iconic Stadium',
+                fecha: '22 NOV 2022',
                 partido: 'Grupo',
                 resumen: '',
 
-                goleadores: [
-                    crearGol(),
+                eventos: [
+                    crearGol('ARG', 'L. Messi', 10),
+                    crearGol('KSA', 'S. Al-Shehri', 48),
+                    crearGol('KSA', 'Salem Al-Dawsari', 53),
                 ],
             },
             {
                 id: 1,
                 sel_1: 'ARG',
-                sel_1_scroe: 0,
+                sel_1_scroe: 2,
                 sel_2: 'MEX',
                 sel_2_scrore: 0,
-                mejor_jugador: '',
-                puntuacion: 0,
-                estadio: '',
-                fecha: '',
+                mejor_jugador: 'L. Messi',
+                puntuacion: 8.2,
+                nacion: 'ARG',
+                estadio: 'Lusail Iconic Stadium',
+                fecha: '26 NOV 2022',
                 partido: 'Grupo',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [
+                    crearGol('ARG', 'L. Messi', 64),
+                    crearGol('ARG', 'E. Fernandez', 87),
+                ],
             },
             {
                 id: 2,
                 sel_1: 'ARG',
-                sel_1_scroe: 0,
+                sel_1_scroe: 2,
                 sel_2: 'POL',
                 sel_2_scrore: 0,
-                mejor_jugador: '',
-                puntuacion: 0,
-                estadio: '',
-                fecha: '',
+                mejor_jugador: 'A. Mac Allister',
+                puntuacion: 8.5,
+                nacion: 'ARG',
+                estadio: 'Stadium 974',
+                fecha: '30 NOV 2022',
                 partido: 'Grupo',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [
+                    crearGol('ARG', 'A. Mac Allister', 46),
+                    crearGol('ARG', 'Julián Alvarez', 67),
+                ],
             },
             {
                 id: 3,
                 sel_1: 'ARG',
-                sel_1_scroe: 0,
+                sel_1_scroe: 2,
                 sel_2: 'AUS',
-                sel_2_scrore: 0,
-                mejor_jugador: '',
+                sel_2_scrore: 1,
+                mejor_jugador: 'L. Messi',
                 puntuacion: 0,
-                estadio: '',
-                fecha: '',
+                nacion: 'ARG',
+                estadio: 'Ahmad bin Ali Stadium',
+                fecha: '03 DIC 2022',
                 partido: 'Octavos de final',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [
+                    crearGol('ARG', 'L. Messi', 35),
+                    crearGol('ARG', 'Julián Alvarez', 57),
+                    crearGol('AUS', '(PP) E. Fernandez', 77),
+                ],
             },
             {
                 id: 4,
                 sel_1: 'ARG',
-                sel_1_scroe: 0,
+                sel_1_scroe: 2,
                 sel_2: 'NED',
-                sel_2_scrore: 0,
-                mejor_jugador: '',
+                sel_2_scrore: 2,
+                mejor_jugador: 'L. Messi',
                 puntuacion: 0,
+                nacion: 'ARG',
                 estadio: '',
                 fecha: '',
-                partido:
-                    'Cuartos de final',
+                partido: 'Cuartos de final',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [
+                    crearGol('ARG', 'Nahuel Molina', 35),
+                    crearGol('ARG', 'L. Messi', 73),
+                    crearGol('NED', 'W. Weghorst', 83),
+                    crearGol('NED', 'W. Weghorst', 90),
+                ],
             },
             {
                 id: 5,
                 sel_1: 'ARG',
-                sel_1_scroe: 0,
+                sel_1_scroe: 3,
                 sel_2: 'CRO',
                 sel_2_scrore: 0,
-                mejor_jugador: '',
+                mejor_jugador: 'L. Messi',
                 puntuacion: 0,
+                nacion: 'ARG',
                 estadio: '',
                 fecha: '',
                 partido: 'Semifinal',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
             {
                 id: 6,
                 sel_1: 'ARG',
-                sel_1_scroe: 0,
+                sel_1_scroe: 3,
                 sel_2: 'FRA',
-                sel_2_scrore: 0,
-                mejor_jugador: '',
+                sel_2_scrore: 3,
+                mejor_jugador: 'L. Messi',
                 puntuacion: 0,
+                nacion: 'ARG',
                 estadio: '',
                 fecha: '',
                 partido: 'Final',
                 resumen: '',
 
-                goleadores: [],
+                eventos: [],
             },
         ],
     },
