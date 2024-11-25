@@ -8,6 +8,7 @@ const MatchWC = ({ worldCId, matchId }) => {
     }
 
     const partido = mundial.partidos.find((c) => c.id === matchId);
+    const sel_1 = partido.goleadores.map()
 
     return (
         <SelMatch
@@ -20,7 +21,22 @@ const MatchWC = ({ worldCId, matchId }) => {
             seleccion_2={partido.sel_2}
             sel_1_score={partido.sel_1_scroe}
             sel_2_score={partido.sel_2_scrore}
-        ></SelMatch>
+        >
+            <div className='flex justify-between gap-4 w-full'>
+                <div className='flex flex-wrap justify-start w-1/2'>
+                    
+                    {partido.goleadores.length > 0 ? (
+                        <p>Si hay goles</p>
+                    ) : null}
+                </div>
+                <div className='flex flex-wrap justify-end w-1/2'>
+                    {partido.goleadores.length > 0 ? (
+                        <p>Si hay goles</p>
+                    ) : null}
+
+                </div>
+            </div>
+        </SelMatch>
     );
 };
 

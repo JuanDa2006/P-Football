@@ -14,6 +14,7 @@ const SelMatch = ({
     seleccion_2,
     sel_1_score,
     sel_2_score,
+    children,
 }) => {
     const sel_1 = countries.find((c) => c.id === seleccion_1);
     const sel_2 = countries.find((c) => c.id === seleccion_2);
@@ -25,7 +26,7 @@ const SelMatch = ({
     };
 
     return (
-        <div className='max-w-96 w-96 sm:w-full lg:w-max flex flex-wrap justify-between gap-4 dark:text-white'>
+        <div className='max-w-96 w-96 sm:w-full lg:w-max flex flex-wrap justify-between gap-4 dark:text-white mb-8'>
             <div className='w-full'>
                 <h1 className='font-bold text-2xl uppercase'>{partido}</h1>
                 <h1>{fase}</h1>
@@ -81,6 +82,7 @@ const SelMatch = ({
                     <h2>{sel_2.name}</h2>
                 </div>
             </div>
+            {children}
         </div>
     );
 };

@@ -1,12 +1,8 @@
+import crearGol from "../../services/crearGol";
+
 const crearInfo = (fecha, estadio) => ({
     fecha,
     estadio,
-});
-
-const crearGol = (nacion, jugador, minuto) => ({
-    nacion,
-    jugador,
-    minuto,
 });
 
 const analisis_partidos_wc = [
@@ -657,7 +653,7 @@ const analisis_partidos_wc = [
                 id: 0,
                 sel_1: 'ARG',
                 sel_1_scroe: 0,
-                sel_2: 'RSA',
+                sel_2: 'KSA',
                 sel_2_scrore: 0,
                 mejor_jugador: '',
                 puntuacion: 0,
@@ -666,7 +662,9 @@ const analisis_partidos_wc = [
                 partido: 'Grupo',
                 resumen: '',
 
-                goleadores: [],
+                goleadores: [
+                    crearGol(),
+                ],
             },
             {
                 id: 1,

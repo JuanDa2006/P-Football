@@ -16,11 +16,13 @@ const WorldCupMatchLayout = ({
         <BaseLayout pageName={pageName}>
             <div className='flex flex-wrap justify-between gap-y-4'>
                 {mundial.partidos.map((partido, index) => (
-                    <MatchWC
-                        key={index}
-                        worldCId={worldCId}
-                        matchId={partido.id}
-                    />
+                    <div>
+                        <MatchWC
+                            key={index}
+                            worldCId={worldCId}
+                            matchId={partido.id}
+                        />
+                    </div>
                 ))}
                 {children}
             </div>
