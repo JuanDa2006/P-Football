@@ -1,11 +1,11 @@
-import WorldCupGroupsLayout from '../../../layouts/worldCupGroupsLayout';
+import WorldCupMatchLayout from "../../../layouts/worldCupMatchLayout";
 
-export default function QAT_2022_G() {
+export default function QAT_2022_P() {
     return (
-        <WorldCupGroupsLayout
+        <WorldCupMatchLayout
             pageName={'Catar - 2022'}
             countryId={'ARG'}
             worldCId={'2022'}
-        ></WorldCupGroupsLayout>
+        ></WorldCupMatchLayout>
     );
 }

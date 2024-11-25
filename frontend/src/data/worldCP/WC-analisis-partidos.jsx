@@ -14,6 +14,15 @@ const analisis_partidos_wc = [
         id: '1930',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: 'Partido 1 (Uruguay 1-0 Perú)',
                 resumen:
                     'Rendimiento sólido pero conservador, lograron la victoria sin arriesgar demasiado.',
@@ -21,6 +30,15 @@ const analisis_partidos_wc = [
                 goleadores: [crearGol('URU', 'Héctor Castro', 60)],
             },
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: 'Partido 2 (Uruguay 4-0 Rumania)',
                 resumen:
                     'Incremento en la agresividad ofensiva, gran eficacia en el ataque.',
@@ -33,6 +51,15 @@ const analisis_partidos_wc = [
                 ],
             },
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: 'Semifinal (Uruguay 6-1 Yugoslavia)',
                 resumen:
                     'Dominio absoluto, tanto en control del juego como en definición.',
@@ -48,6 +75,15 @@ const analisis_partidos_wc = [
                 ],
             },
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: 'Final (Uruguay 4-2 Argentina)',
                 resumen:
                     'Superaron una desventaja inicial; gran capacidad de reacción y efectividad en ataque.',
@@ -67,6 +103,15 @@ const analisis_partidos_wc = [
         id: '1934',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: 'Octavos de final (Italia 7-1 Estados Unidos)',
                 resumen:
                     'Dominio absoluto, mostró gran capacidad ofensiva desde el inicio.',
@@ -115,6 +160,15 @@ const analisis_partidos_wc = [
                 ],
             },
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: 'Cuartos de final (Italia 1-1 España)',
                 resumen:
                     'Partido muy disputado; la defensa italiana fue clave.',
@@ -133,6 +187,15 @@ const analisis_partidos_wc = [
                 ],
             },
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: 'Cuartos de final - Desempate (Italia 1-0 España)',
                 resumen: '',
 
@@ -145,6 +208,15 @@ const analisis_partidos_wc = [
                 ],
             },
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: 'Semifinal (Italia 1-0 Austria)',
                 resumen:
                     'Victoria ajustada, con un enfoque en defensa y aprovechamiento de una ocasión crucial.',
@@ -158,6 +230,15 @@ const analisis_partidos_wc = [
                 ],
             },
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: 'Final (Italia 2-1 Checoslovaquia)',
                 resumen:
                     'Remontada en tiempo extra; mostró carácter y resistencia',
@@ -186,6 +267,15 @@ const analisis_partidos_wc = [
         id: '1938',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -197,6 +287,15 @@ const analisis_partidos_wc = [
         id: '1950',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -208,6 +307,15 @@ const analisis_partidos_wc = [
         id: '1954',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -219,6 +327,15 @@ const analisis_partidos_wc = [
         id: '1958',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -230,6 +347,15 @@ const analisis_partidos_wc = [
         id: '1962',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -241,6 +367,15 @@ const analisis_partidos_wc = [
         id: '1966',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -252,6 +387,15 @@ const analisis_partidos_wc = [
         id: '1970',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -263,6 +407,15 @@ const analisis_partidos_wc = [
         id: '1974',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -274,6 +427,15 @@ const analisis_partidos_wc = [
         id: '1978',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -285,6 +447,15 @@ const analisis_partidos_wc = [
         id: '1982',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -296,6 +467,15 @@ const analisis_partidos_wc = [
         id: '1986',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -307,6 +487,15 @@ const analisis_partidos_wc = [
         id: '1990',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -318,6 +507,15 @@ const analisis_partidos_wc = [
         id: '1994',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -329,6 +527,15 @@ const analisis_partidos_wc = [
         id: '1998',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -340,6 +547,15 @@ const analisis_partidos_wc = [
         id: '2002',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -351,6 +567,15 @@ const analisis_partidos_wc = [
         id: '2006',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -362,6 +587,15 @@ const analisis_partidos_wc = [
         id: '2010',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: 'Grupo (España 0-1 Suiza)',
                 resumen:
                     'Inicio decepcionante, con problemas en la definición y defensa expuesta.',
@@ -380,6 +614,15 @@ const analisis_partidos_wc = [
         id: '2014',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -391,6 +634,15 @@ const analisis_partidos_wc = [
         id: '2018',
         partidos: [
             {
+                id: '',
+                sel_1: '',
+                sel_1_scroe: 0,
+                sel_2: '',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido: '',
                 resumen: '',
 
@@ -402,44 +654,107 @@ const analisis_partidos_wc = [
         id: '2022',
         partidos: [
             {
-                partido: 'Grupo (Argentina 1-2 Arabia Saudita)',
+                id: 0,
+                sel_1: 'ARG',
+                sel_1_scroe: 0,
+                sel_2: 'RSA',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
+                partido: 'Grupo',
                 resumen: '',
 
                 goleadores: [],
             },
             {
-                partido: 'Grupo (Argentina 2-0 México)',
+                id: 1,
+                sel_1: 'ARG',
+                sel_1_scroe: 0,
+                sel_2: 'MEX',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
+                partido: 'Grupo',
                 resumen: '',
 
                 goleadores: [],
             },
             {
-                partido: 'Grupo (Argentina 2-0 Polonia)',
+                id: 2,
+                sel_1: 'ARG',
+                sel_1_scroe: 0,
+                sel_2: 'POL',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
+                partido: 'Grupo',
                 resumen: '',
 
                 goleadores: [],
             },
             {
-                partido: 'Octavos de final (Argentina 2-1 Australia)',
+                id: 3,
+                sel_1: 'ARG',
+                sel_1_scroe: 0,
+                sel_2: 'AUS',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
+                partido: 'Octavos de final',
                 resumen: '',
 
                 goleadores: [],
             },
             {
+                id: 4,
+                sel_1: 'ARG',
+                sel_1_scroe: 0,
+                sel_2: 'NED',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
                 partido:
-                    'Cuartos de final (Argentina 4-3 Países Bajos, en penales)',
+                    'Cuartos de final',
                 resumen: '',
 
                 goleadores: [],
             },
             {
-                partido: 'Semifinal (Argentina 3-0 Croacia)',
+                id: 5,
+                sel_1: 'ARG',
+                sel_1_scroe: 0,
+                sel_2: 'CRO',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
+                partido: 'Semifinal',
                 resumen: '',
 
                 goleadores: [],
             },
             {
-                partido: 'Final (Argentina 3-3 Francia, ganó en penales)',
+                id: 6,
+                sel_1: 'ARG',
+                sel_1_scroe: 0,
+                sel_2: 'FRA',
+                sel_2_scrore: 0,
+                mejor_jugador: '',
+                puntuacion: 0,
+                estadio: '',
+                fecha: '',
+                partido: 'Final',
                 resumen: '',
 
                 goleadores: [],

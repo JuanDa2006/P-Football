@@ -6,6 +6,7 @@ export default function QAT_2022() {
             pageName={'Catar - 2022'}
             countryId={'ARG'}
             worldCId={'2022'}
+            partidos={'/mundiales/2022/partidos'}
         ></WorldCupLayout>
     );
 }

@@ -4,9 +4,16 @@ import ResumenWC from '../components/wordlCup/resumen';
 import AnalisisCWC from '../components/wordlCup/analisisC';
 import AnalisisEWC from '../components/wordlCup/analisisE';
 import AnalisisAWC from '../components/wordlCup/analisisA';
-import AnalisisPWC from '../components/wordlCup/analisisP';
+import PartidosWC from '../components/wordlCup/analisisP';
 
-const WorldCupLayout = ({ children, pageName, countryId, hostId, worldCId }) => {
+const WorldCupLayout = ({
+    children,
+    pageName,
+    countryId,
+    hostId,
+    worldCId,
+    partidos,
+}) => {
     return (
         <BaseLayout pageName={pageName}>
             <HeaderWC worldCId={worldCId} countryId={countryId} />
@@ -14,7 +21,7 @@ const WorldCupLayout = ({ children, pageName, countryId, hostId, worldCId }) => 
             <AnalisisCWC worldCId={worldCId} />
             <AnalisisEWC worldCIp={worldCId} />
             <AnalisisAWC worldCId={worldCId} />
-            <AnalisisPWC worldCId={worldCId} />
+            <PartidosWC worldCId={worldCId} partidos={partidos} />
             {children}
         </BaseLayout>
     );

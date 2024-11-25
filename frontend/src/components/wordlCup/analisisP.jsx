@@ -1,7 +1,8 @@
+import { Link } from 'react-router-dom';
 import analisis_partidos_wc from '../../data/worldCP/WC-analisis-partidos';
 import CountryFlagSmall from '../countryFlagSmall';
 
-const AnalisisPWC = ({ worldCId }) => {
+const PartidosWC = ({ worldCId, partidos }) => {
     const mundial = analisis_partidos_wc.find((c) => c.id === worldCId);
 
     if (!mundial) {
@@ -10,42 +11,11 @@ const AnalisisPWC = ({ worldCId }) => {
 
     return (
         <div className='my-4 dark:text-white'>
-            <h3 className='font-semibold text-xl'>
-                Análisis por Partido y Rendimiento:
-            </h3>
-            {mundial.partidos.map((partido, index) => (
-                <div key={index} className='my-1 ml-2'>
-                    <h4 className='text-lg font-semibold'>
-                        {partido.partido}:
-                    </h4>
-                    <p>{partido.resumen}</p>
-                    {partido.goleadores.length > 0 ? (
-                        <h5 className='text-md font-medium ml-2 mt-2'>
-                            Goleadores:
-                        </h5>
-                    ) : null}
-                    <ul className='ml-4 mb-2'>
-                        {partido.goleadores.length > 0
-                            ? partido.goleadores.map((goleador, idx) => (
-                                  <div>
-                                      <li
-                                          key={idx}
-                                          className='flex items-center my-1'
-                                      >
-                                          <CountryFlagSmall
-                                              countryId={goleador.nacion}
-                                          />
-                                          {goleador.jugador} - {goleador.minuto}
-                                          '
-                                      </li>
-                                  </div>
-                              ))
-                            : null}
-                    </ul>
-                </div>
-            ))}
+            <Link to={partidos} className='font-semibold text-xl hover:underline'>
+                Partidos (click)
+            </Link>
         </div>
     );
 };
 
-export default AnalisisPWC;
+export default PartidosWC;
