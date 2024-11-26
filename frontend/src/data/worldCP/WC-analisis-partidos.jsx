@@ -1,6 +1,7 @@
 import crearGol from '../../services/crearGol';
 import crearTarjetaAmarilla from '../../services/crearTarjetaAmarilla';
 import crearTarjetaRoja from '../../services/crearTarjetaRoja';
+import crearPenalti from '../../services/crearPenalti';
 
 const analisis_partidos_wc = [
     {
@@ -21,7 +22,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Rendimiento sólido pero conservador, lograron la victoria sin arriesgar demasiado.',
 
-                eventos: [crearGol('URU', 'Héctor Castro', 60)],
+                goles: [crearGol('URU', 'Héctor Castro', 60)],
             },
             {
                 id: '',
@@ -38,7 +39,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Incremento en la agresividad ofensiva, gran eficacia en el ataque.',
 
-                eventos: [
+                goles: [
                     crearGol('URU', 'Pablo Dorado', 7),
                     crearGol('URU', 'Héctor Scarone', 24),
                     crearGol('URU', 'Peregrino Anselmo', 30),
@@ -60,7 +61,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Dominio absoluto, tanto en control del juego como en definición.',
 
-                eventos: [
+                goles: [
                     crearGol('YUG', 'Djordje Vujadinović', 4),
                     crearGol('URU', 'Pedro Cea', 18),
                     crearGol('URU', 'Peregrino Anselmo', 20),
@@ -85,7 +86,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Superaron una desventaja inicial; gran capacidad de reacción y efectividad en ataque.',
 
-                eventos: [
+                goles: [
                     crearGol('URU', 'Pablo Dorado', 12),
                     crearGol('ARG', 'Carlos Peucelle', 20),
                     crearGol('ARG', 'Guillermo Stábile', 37),
@@ -114,7 +115,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Dominio absoluto, mostró gran capacidad ofensiva desde el inicio.',
 
-                eventos: [
+                goles: [
                     {
                         nacion: 'ITA',
                         jugador: 'Angelo Schiavio',
@@ -172,7 +173,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Partido muy disputado; la defensa italiana fue clave.',
 
-                eventos: [
+                goles: [
                     {
                         nacion: 'ESP',
                         jugador: 'Luis Pagola',
@@ -199,7 +200,7 @@ const analisis_partidos_wc = [
                 partido: 'Cuartos de final - Desempate (Italia 1-0 España)',
                 resumen: '',
 
-                eventos: [
+                goles: [
                     {
                         nacion: 'ITA',
                         jugador: 'Giuseppe Meazza',
@@ -222,7 +223,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Victoria ajustada, con un enfoque en defensa y aprovechamiento de una ocasión crucial.',
 
-                eventos: [
+                goles: [
                     {
                         nacion: 'ITA',
                         jugador: 'Enrique Guaita',
@@ -245,7 +246,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Remontada en tiempo extra; mostró carácter y resistencia',
 
-                eventos: [
+                goles: [
                     {
                         nacion: 'CZE',
                         jugador: 'Antonín Puč',
@@ -282,7 +283,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -303,7 +304,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -324,7 +325,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -345,7 +346,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -366,7 +367,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -387,7 +388,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -408,7 +409,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -429,7 +430,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -450,7 +451,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -471,7 +472,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -492,7 +493,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -513,7 +514,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -534,7 +535,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -555,7 +556,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -576,7 +577,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -597,7 +598,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -619,7 +620,7 @@ const analisis_partidos_wc = [
                 resumen:
                     'Inicio decepcionante, con problemas en la definición y defensa expuesta.',
 
-                eventos: [crearGol('SUI', 'G. Fernandes', 52)],
+                goles: [crearGol('SUI', 'G. Fernandes', 52)],
             },
             {
                 id: 1,
@@ -635,7 +636,7 @@ const analisis_partidos_wc = [
                 partido: 'Grupo',
                 resumen: '',
 
-                eventos: [
+                goles: [
                     crearGol('ESP', 'D. Villa', 17),
                     crearGol('ESP', 'D. Villa', 51),
                 ],
@@ -659,7 +660,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -680,7 +681,7 @@ const analisis_partidos_wc = [
                 partido: '',
                 resumen: '',
 
-                eventos: [],
+                goles: [],
             },
         ],
     },
@@ -701,7 +702,7 @@ const analisis_partidos_wc = [
                 partido: 'Grupo',
                 resumen: '',
 
-                eventos: [
+                goles: [
                     crearGol('ARG', 'L. Messi', 10),
                     crearGol('KSA', 'S. Al-Shehri', 48),
                     crearGol('KSA', 'Salem Al-Dawsari', 53),
@@ -721,7 +722,7 @@ const analisis_partidos_wc = [
                 partido: 'Grupo',
                 resumen: '',
 
-                eventos: [
+                goles: [
                     crearGol('ARG', 'L. Messi', 64),
                     crearGol('ARG', 'E. Fernandez', 87),
                 ],
@@ -740,7 +741,7 @@ const analisis_partidos_wc = [
                 partido: 'Grupo',
                 resumen: '',
 
-                eventos: [
+                goles: [
                     crearGol('ARG', 'A. Mac Allister', 46),
                     crearGol('ARG', 'Julián Alvarez', 67),
                 ],
@@ -752,14 +753,14 @@ const analisis_partidos_wc = [
                 sel_2: 'AUS',
                 sel_2_scrore: 1,
                 mejor_jugador: 'L. Messi',
-                puntuacion: 0,
+                puntuacion: 8.0,
                 nacion: 'ARG',
                 estadio: 'Ahmad bin Ali Stadium',
                 fecha: '03 DIC 2022',
                 partido: 'Octavos de final',
                 resumen: '',
 
-                eventos: [
+                goles: [
                     crearGol('ARG', 'L. Messi', 35),
                     crearGol('ARG', 'Julián Alvarez', 57),
                     crearGol('AUS', '(PP) E. Fernandez', 77),
@@ -772,18 +773,31 @@ const analisis_partidos_wc = [
                 sel_2: 'NED',
                 sel_2_scrore: 2,
                 mejor_jugador: 'L. Messi',
-                puntuacion: 0,
+                puntuacion: 9.1,
                 nacion: 'ARG',
-                estadio: '',
-                fecha: '',
+                estadio: 'Lusail Iconic Stadium',
+                fecha: '09 DIC 2022',
                 partido: 'Cuartos de final',
                 resumen: '',
 
-                eventos: [
+                goles: [
                     crearGol('ARG', 'Nahuel Molina', 35),
                     crearGol('ARG', 'L. Messi', 73),
                     crearGol('NED', 'W. Weghorst', 83),
                     crearGol('NED', 'W. Weghorst', 90),
+                ],
+
+                penales: [
+                    crearPenalti('NED', 'V. Van Dijk', false),
+                    crearPenalti('NED', 'Steven Berghuis', false),
+                    crearPenalti('NED', 'T. Koopmeiners', true),
+                    crearPenalti('NED', 'W. Weghorst', true),
+                    crearPenalti('NED', 'Luuk De Jong', true),
+                    crearPenalti('ARG', 'L. Messi', true),
+                    crearPenalti('ARG', 'L. Paredes', true),
+                    crearPenalti('ARG', 'G. Montiel', true),
+                    crearPenalti('ARG', 'E. Fernández', false),
+                    crearPenalti('ARG', 'Lautaro Martínez', true),
                 ],
             },
             {
@@ -792,15 +806,19 @@ const analisis_partidos_wc = [
                 sel_1_scroe: 3,
                 sel_2: 'CRO',
                 sel_2_scrore: 0,
-                mejor_jugador: 'L. Messi',
-                puntuacion: 0,
+                mejor_jugador: 'Julián Álvarez',
+                puntuacion: 8.5,
                 nacion: 'ARG',
-                estadio: '',
-                fecha: '',
+                estadio: 'Lusail Iconic Stadium',
+                fecha: '13 DIC 2022',
                 partido: 'Semifinal',
                 resumen: '',
 
-                eventos: [],
+                goles: [
+                    crearGol('ARG', 'L. Messi (P)', 34),
+                    crearGol('ARG', 'Julián Álvarez', 39),
+                    crearGol('ARG', 'Julián Álvarez', 69),
+                ],
             },
             {
                 id: 6,
@@ -809,14 +827,32 @@ const analisis_partidos_wc = [
                 sel_2: 'FRA',
                 sel_2_scrore: 3,
                 mejor_jugador: 'L. Messi',
-                puntuacion: 0,
+                puntuacion: 9.2,
                 nacion: 'ARG',
-                estadio: '',
-                fecha: '',
+                estadio: 'Lusail Iconic Stadium',
+                fecha: '18 DIC 2022',
                 partido: 'Final',
                 resumen: '',
 
-                eventos: [],
+                goles: [
+                    crearGol('ARG', 'L. Messi (P)', 23),
+                    crearGol('ARG', 'A. Di Maria', 36),
+                    crearGol('FRA', 'K. Mbappé (P)', 80),
+                    crearGol('FRA', 'K. Mbappé', 81),
+                    crearGol('ARG', 'L. Messi', 108),
+                    crearGol('FRA', 'K. Mbappé (P)', 118),
+                ],
+
+                penales: [
+                    crearPenalti('ARG', 'L. Messi', true),
+                    crearPenalti('ARG', 'Paulo Dybala', true),
+                    crearPenalti('ARG', 'L. Paredes', true),
+                    crearPenalti('ARG', 'G. Montiel', true),
+                    crearPenalti('FRA', 'K. Mbappé', true),
+                    crearPenalti('FRA', 'K. Coman', false),
+                    crearPenalti('FRA', 'A. Tchouaméni', false),
+                    crearPenalti('FRA', 'Kolo Muani', true),
+                ],
             },
         ],
     },

@@ -9,6 +9,11 @@ export default {
             width: {
                 15: '3.75rem',
             },
+            spacing: {
+                128: '32rem',
+                160: '40rem',
+                256: '64rem',
+            },
         },
     },
     plugins: [flowbite.plugin()],

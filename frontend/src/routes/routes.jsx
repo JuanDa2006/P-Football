@@ -1,6 +1,7 @@
 // Imports
 import React, { lazy, Suspense, useMemo } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, ScrollRestoration } from 'react-router-dom';
+import ScrollToTopRoute from '../hooks/scrollToTop';
 
 // Routes
 const Home = lazy(() => import('../pages/home'));
@@ -142,13 +143,16 @@ function RoutesConfig() {
     ]);
 
     return (
-        <Suspense fellback={<Loading />}>
-            <Routes>
-                {routes.map(({ path, element }) => (
-                    <Route id={path} path={path} element={element} />
-                ))}
-            </Routes>
-        </Suspense>
+        <>
+            <ScrollToTopRoute />
+            <Suspense fellback={<Loading />}>
+                <Routes>
+                    {routes.map(({ path, element }) => (
+                        <Route id={path} path={path} element={element} />
+                    ))}
+                </Routes>
+            </Suspense>
+        </>
     );
 }
 

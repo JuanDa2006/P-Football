@@ -28,7 +28,7 @@ const SelMatch = ({
     };
 
     return (
-        <div className='max-w-80 w-80 md:w-96 md:max-w-96 flex flex-wrap justify-between gap-4 dark:text-white mb-8'>
+        <div className='max-w-80 w-80 md:w-256 md:max-w-full flex flex-wrap md:justify-center justify-between gap-4 dark:text-white mb-8'>
             <div className='w-full'>
                 <h1 className='font-bold text-2xl uppercase'>{partido}</h1>
                 <h1>{fase}</h1>
@@ -70,7 +70,7 @@ const SelMatch = ({
                     <img src={sel_1.src} alt='' className='w-full' />
                 </div>
                 <div className='w-1/3 flex justify-center items-center flex-wrap'>
-                    <p className='font-bold text-4xl w-full text-center'>
+                    <p className='font-bold text-2xl sm:text-4xl md:text-6xl lg:text-8xl w-full text-center'>
                         {sel_1_score} - {sel_2_score}
                     </p>
                 </div>
