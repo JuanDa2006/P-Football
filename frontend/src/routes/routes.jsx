@@ -79,7 +79,7 @@ const BRA_2014_G = lazy(() => import('../pages/mundiales/2014/2014-grupos'));
 
 const RUS_2018 = lazy(() => import('../pages/mundiales/2018/2018-Rusia'));
 const RUS_2018_G = lazy(() => import('../pages/mundiales/2018/2018-grupos'));
-
+const RUS_2018_P = lazy(() => import('../pages/mundiales/2018/2018-partidos'));
 const QAT_2022 = lazy(() => import('../pages/mundiales/2022/2022-Catar'));
 const QAT_2022_G = lazy(() => import('../pages/mundiales/2022/2022-grupos'));
 const QAT_2022_P = lazy(() => import('../pages/mundiales/2022/2022-partidos'));
@@ -137,6 +137,7 @@ function RoutesConfig() {
         { path: '/mundiales/2014/grupos', element: <BRA_2014_G /> },
         { path: '/mundiales/2018', element: <RUS_2018 /> },
         { path: '/mundiales/2018/grupos', element: <RUS_2018_G /> },
+        { path: '/mundiales/2018/partidos', element: <RUS_2018_P /> },
         { path: '/mundiales/2022', element: <QAT_2022 /> },
         { path: '/mundiales/2022/grupos', element: <QAT_2022_G /> },
         { path: '/mundiales/2022/partidos', element: <QAT_2022_P /> },

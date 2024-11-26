@@ -6,6 +6,7 @@ export default function RUS_2018() {
             pageName={'Rusia - 2018'}
             countryId={'FRA'}
             worldCId={'2018'}
+            partidos={'/mundiales/2018/partidos'}
         ></WorldCupLayout>
     );
 }
